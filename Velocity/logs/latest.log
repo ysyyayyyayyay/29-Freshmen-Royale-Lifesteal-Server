@@ -1,516 +1,128 @@
-[15:20:08] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-c9aa1cca-b480)...
-[15:20:08] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[15:20:08] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 1.1.x (Linux x86_64) ciphers
-[15:20:08] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[15:20:08] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
-[15:20:08] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[15:20:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[15:20:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[15:20:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>      EAGLERCRAFTXVELOCITY WARNING:
-[15:20:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[15:20:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This plugin wasn't tested to be 'working'
-[15:20:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  with ANY version of Velocity (and forks)
-[15:20:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  apart from the versions listed below:
-[15:20:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[15:20:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - Velocity: 3.4.0-SNAPSHOT:6995f415:b464
-[15:20:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - https://api.papermc.io/v2/projects/velocity/versions/3.4.0-SNAPSHOT/builds/464/downloads/velocity-3.4.0-SNAPSHOT-464.jar
-[15:20:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[15:20:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This is not a Bukkit/Spigot plugin!
-[15:20:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[15:20:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  Use "-Deaglerxvelocity.stfu=true" to hide
-[15:20:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[15:20:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[15:20:08] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxvelocity 1.1.7 by lax1dude, ayunami2000
-[15:20:08] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 10.4.21 by NickUC
-[15:20:08] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 3 plugins
-[15:20:08] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
-[15:20:08] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
-[15:20:09] [EaglercraftXVelocity - Task Executor #0/ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
-[15:20:09] [Netty epoll Boss #0/INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
-[15:20:09] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[15:20:09] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
-[15:20:10] [EaglercraftXVelocity - Task Executor #0/INFO] [nlogin]: Successful plugin core start (took 1.16s)
-[15:20:10] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:           __             _       
-[15:20:10] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   _ __   / /  ___   __ _(_)_ __  
-[15:20:10] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | '_ \ / /  / _ \ / _` | | '_ \ 
-[15:20:10] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | | | / /__| (_) | (_| | | | | |
-[15:20:10] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  |_| |_\____/\___/ \__, |_|_| |_|
-[15:20:10] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:                   |___/            
-[15:20:10] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  By: www.nickuc.com - V 10.4.21
-[15:20:10] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  
-[15:20:11] [Netty epoll Boss #1/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25765
-[15:20:11] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (3.37s)!
-[15:20:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[15:20:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Thank you so much for choosing nLogin! <3
-[15:20:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[15:20:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  For your safety, please read the message below:
-[15:20:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Never download nLogin from unknown sources.
-[15:20:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   A modified version may contain malicious software.
-[15:20:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[15:20:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Trusted sources:
-[15:20:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.nickuc.com
-[15:20:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.github.com/nickuc
-[15:20:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   OpeNLogin installer (from Spigot or GitHub)
-[15:20:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[15:20:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Official support channels:
-[15:20:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Discord group: www.nickuc.com/discord
-[15:20:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Documentation: docs.nickuc.com/nlogin/
-[15:20:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Email: support@nickuc.com
-[15:20:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   YouTube: youtube.com/nickuc
-[15:20:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[15:20:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  To remove this warning, log in with "nlogin.admin" permission on the server
-[15:20:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  and click the "Setup plugin" button to configure your plugin.
-[15:20:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[15:20:47] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:46806]: Connected via websocket
-[15:20:47] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:46806]: Origin header is https://nolanderlauncherdelta-ozj8.vercel.app
-[15:20:49] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806) has connected
-[15:20:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has connected
-[15:20:58] [nLogin - Task Executor #1/INFO] [nlogin]: The user ysyyayyyayya has successfully logged in.
-[15:20:59] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:21:04] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:21:05] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> skyblock has connected
-[15:21:05] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> skyblock has disconnected
-[15:21:05] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): disconnected while connecting to skyblock: The server is currently whitelisted, try again later.
-[15:21:08] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> skyblock has connected
-[15:21:08] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> skyblock has disconnected
-[15:21:08] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): disconnected while connecting to skyblock: The server is currently whitelisted, try again later.
-[15:21:09] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:21:14] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:21:19] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:21:24] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:21:29] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:21:34] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:21:39] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:21:44] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:21:49] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:21:54] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:21:59] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:22:04] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:22:06] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> skyblock has connected
-[15:22:11] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has disconnected
-[15:22:14] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:22:19] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:22:24] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:22:29] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:22:34] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:22:39] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:22:44] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:22:49] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:22:54] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:22:59] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:23:04] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:23:09] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:23:14] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:23:19] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:23:20] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): kicked from server skyblock: The server is restarting, come back in a few minutes.
-[15:23:20] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> skyblock has disconnected
-[15:23:20] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has connected
-[15:23:24] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806): unable to connect to server lobby
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:23:24] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:46806) has disconnected
-[15:23:24] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has disconnected
+[20:04:21] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-c9aa1cca-b480)...
+[20:04:22] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[20:04:22] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[20:04:22] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[20:04:22] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
+[20:04:22] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[20:04:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[20:04:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[20:04:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>      EAGLERCRAFTXVELOCITY WARNING:
+[20:04:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[20:04:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This plugin wasn't tested to be 'working'
+[20:04:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  with ANY version of Velocity (and forks)
+[20:04:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  apart from the versions listed below:
+[20:04:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[20:04:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - Velocity: 3.4.0-SNAPSHOT:6995f415:b464
+[20:04:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - https://api.papermc.io/v2/projects/velocity/versions/3.4.0-SNAPSHOT/builds/464/downloads/velocity-3.4.0-SNAPSHOT-464.jar
+[20:04:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[20:04:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This is not a Bukkit/Spigot plugin!
+[20:04:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[20:04:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  Use "-Deaglerxvelocity.stfu=true" to hide
+[20:04:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[20:04:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[20:04:22] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxvelocity 1.1.7 by lax1dude, ayunami2000
+[20:04:22] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 10.4.21 by NickUC
+[20:04:23] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin velocit 1.2-pre by 
+[20:04:23] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 4 plugins
+[20:04:23] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
+[20:04:23] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
+[20:04:23] [EaglercraftXVelocity - Task Executor #0/ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
+[20:04:23] [Netty epoll Boss #0/INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
+[20:04:23] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[20:04:23] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[20:04:24] [EaglercraftXVelocity - Task Executor #0/INFO] [nlogin]: Successful plugin core start (took 0.74s)
+[20:04:24] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:           __             _       
+[20:04:24] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   _ __   / /  ___   __ _(_)_ __  
+[20:04:24] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[20:04:24] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | | | / /__| (_) | (_| | | | | |
+[20:04:24] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  |_| |_\____/\___/ \__, |_|_| |_|
+[20:04:24] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:                   |___/            
+[20:04:24] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  By: www.nickuc.com - V 10.4.21
+[20:04:24] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  
+[20:04:24] [EaglercraftXVelocity - Task Executor #0/WARN] [velocit]: No PlayIt secret set!
+[20:04:24] [Netty epoll Boss #1/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25765
+[20:04:24] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (3.36s)!
+[20:04:28] [Thread-5/INFO] [velocit]: Claim this session at https://playit.gg/mc/e115ede6ea12a9e2
+[20:04:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[20:04:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Thank you so much for choosing nLogin! <3
+[20:04:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[20:04:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  For your safety, please read the message below:
+[20:04:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Never download nLogin from unknown sources.
+[20:04:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   A modified version may contain malicious software.
+[20:04:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[20:04:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Trusted sources:
+[20:04:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.nickuc.com
+[20:04:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.github.com/nickuc
+[20:04:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   OpeNLogin installer (from Spigot or GitHub)
+[20:04:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[20:04:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Official support channels:
+[20:04:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Discord group: www.nickuc.com/discord
+[20:04:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Documentation: docs.nickuc.com/nlogin/
+[20:04:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Email: support@nickuc.com
+[20:04:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   YouTube: youtube.com/nickuc
+[20:04:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[20:04:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  To remove this warning, log in with "nlogin.admin" permission on the server
+[20:04:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  and click the "Setup plugin" button to configure your plugin.
+[20:04:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[20:04:31] [Thread-5/INFO] [velocit]: Claim this session at https://playit.gg/mc/e115ede6ea12a9e2
+[20:04:34] [Thread-5/INFO] [velocit]: Claim this session at https://playit.gg/mc/e115ede6ea12a9e2
+[20:04:37] [Thread-5/INFO] [velocit]: Claim this session at https://playit.gg/mc/e115ede6ea12a9e2
+[20:04:40] [Thread-5/INFO] [velocit]: Claim this session at https://playit.gg/mc/e115ede6ea12a9e2
+[20:04:43] [Thread-5/INFO] [velocit]: Claim this session at https://playit.gg/mc/e115ede6ea12a9e2
+[20:04:46] [Thread-5/INFO] [velocit]: Claim this session at https://playit.gg/mc/e115ede6ea12a9e2
+[20:04:49] [Thread-5/INFO] [velocit]: Claim this session at https://playit.gg/mc/e115ede6ea12a9e2
+[20:04:55] [Thread-5/INFO] [velocit]: Saving: PlayitSecret = "81024ea68de43f74604a04ef490969cb145dd3c7405c96d9371c471b62e70b82"
+TCPPorts = []
+
+[20:04:56] [Thread-5/INFO] [velocit]: Saving: PlayitSecret = "81024ea68de43f74604a04ef490969cb145dd3c7405c96d9371c471b62e70b82"
+TCPPorts = [25765]
+
+[20:04:59] [Thread-5/WARN] [gg.playit.control.ChannelSetup]: Got IO error working with :control.playit.gg/2602:fbaf:82c:10:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[20:04:59] [Thread-5/INFO] [gg.playit.control.ChannelSetup]: request queued, waiting 1 second before resend
+[20:07:16] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:51138]: Connected via websocket
+[20:07:16] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:51138]: Origin header is https://elrizzlauncher.vercel.app
+[20:07:16] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.connection.client.InitialInboundConnection]: [initial connection] /[0:0:0:0:0:0:0:1]:51138 has disconnected: You have exhausted the account limits per IP.
+[20:07:59] [Netty epoll Worker #4/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:60072]: Connected via websocket
+[20:07:59] [Netty epoll Worker #4/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:60072]: Origin header is https://elrizzlauncher.vercel.app
+[20:07:59] [nLogin - Task Executor #2/INFO] [com.velocitypowered.proxy.connection.client.InitialInboundConnection]: [initial connection] /[0:0:0:0:0:0:0:1]:60072 has disconnected: You have exhausted the account limits per IP.
+[20:08:01] [Netty epoll Worker #5/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:53608]: Connected via websocket
+[20:08:01] [Netty epoll Worker #5/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:53608]: Origin header is https://elrizzlauncher.vercel.app
+[20:08:03] [Netty epoll Worker #6/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:53612]: Connected via websocket
+[20:08:03] [Netty epoll Worker #6/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:53612]: Origin header is https://elrizzlauncher.vercel.app
+[20:08:03] [nLogin - Task Executor #2/INFO] [com.velocitypowered.proxy.connection.client.InitialInboundConnection]: [initial connection] /[0:0:0:0:0:0:0:1]:53612 has disconnected: You have exhausted the account limits per IP.
+[20:08:14] [Netty epoll Worker #7/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:54680]: Connected via websocket
+[20:08:14] [Netty epoll Worker #7/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:54680]: Origin header is https://elrizzlauncher.vercel.app
+[20:08:14] [nLogin - Task Executor #2/INFO] [com.velocitypowered.proxy.connection.client.InitialInboundConnection]: [initial connection] /[0:0:0:0:0:0:0:1]:54680 has disconnected: You have exhausted the account limits per IP.
+[20:08:41] [Thread-5/INFO] [velocit]: start connection to /69.9.184.2:43784 to claim client
+[20:08:41] [nioEventLoopGroup-2-1/INFO] [velocit]: connected to tunnel server, sending claim token
+[20:08:41] [nioEventLoopGroup-2-1/INFO] [velocit]: claim token sent
+[20:08:41] [nioEventLoopGroup-2-1/INFO] [velocit]: connection to tunnel server has been established
+[20:08:41] [nioEventLoopGroup-2-1/INFO] [velocit]: connecting to minecraft server at /0.0.0.0:25765
+[20:08:41] [nioEventLoopGroup-2-2/INFO] [velocit]: connected to local minecraft server
+[20:08:42] [nioEventLoopGroup-2-2/WARN] [velocit]: failed to send data to minecraft server
+[20:09:00] [Thread-5/INFO] [gg.playit.control.ChannelSetup]: send keep alive
+[20:09:12] [Thread-5/INFO] [gg.playit.control.ChannelSetup]: send keep alive
+[20:09:13] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:34400]: Connected via websocket
+[20:09:13] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:34400]: Origin header is https://resent4-0.vercel.app
+[20:09:14] [nLogin - Task Executor #2/INFO] [com.velocitypowered.proxy.connection.client.InitialInboundConnection]: [initial connection] /[0:0:0:0:0:0:0:1]:34400 has disconnected: You have exhausted the account limits per IP.
+[20:11:42] [Thread-5/INFO] [velocit]: start connection to /69.9.184.2:43784 to claim client
+[20:11:43] [nioEventLoopGroup-2-3/INFO] [velocit]: connected to tunnel server, sending claim token
+[20:11:43] [nioEventLoopGroup-2-3/INFO] [velocit]: claim token sent
+[20:11:43] [nioEventLoopGroup-2-3/INFO] [velocit]: connection to tunnel server has been established
+[20:11:43] [nioEventLoopGroup-2-3/INFO] [velocit]: connecting to minecraft server at /0.0.0.0:25765
+[20:11:43] [nioEventLoopGroup-2-4/INFO] [velocit]: connected to local minecraft server
+[20:11:43] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ysyyayyyayya (/127.0.0.1:47566) has connected
+[20:11:44] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has connected
+[20:11:44] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has disconnected
+[20:11:44] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/127.0.0.1:47566): disconnected while connecting to login: Unsupported client version
+[20:11:44] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/127.0.0.1:47566) has disconnected: Unable to connect to login: Unsupported client version
+[20:11:44] [nioEventLoopGroup-2-4/WARN] [velocit]: failed to send data to minecraft server
+[20:13:02] [Thread-5/INFO] [gg.playit.control.ChannelSetup]: send keep alive
+[20:13:14] [Thread-5/INFO] [gg.playit.control.ChannelSetup]: send keep alive
+[20:13:36] [Thread-5/INFO] [velocit]: start connection to /69.9.184.2:43784 to claim client
+[20:13:37] [nioEventLoopGroup-2-5/INFO] [velocit]: connected to tunnel server, sending claim token
+[20:13:37] [nioEventLoopGroup-2-5/INFO] [velocit]: claim token sent
+[20:13:37] [nioEventLoopGroup-2-5/INFO] [velocit]: connection to tunnel server has been established
+[20:13:37] [nioEventLoopGroup-2-5/INFO] [velocit]: connecting to minecraft server at /0.0.0.0:25765
+[20:13:37] [nioEventLoopGroup-2-6/INFO] [velocit]: connected to local minecraft server
+[20:14:07] [Netty epoll Worker #7/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /127.0.0.1:50992: read timed out
