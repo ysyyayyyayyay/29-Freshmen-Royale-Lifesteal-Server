@@ -1,0 +1,6 @@
+[2025-12-07 19:44:31] [INFO   ]  Custom Logger Initialized 
+[2025-12-07 19:44:31] [INFO   ] [NOTICE] TerraformGenerator will suppress the server's watchdog while generating chunks to prevent unnecessary stacktrace warnings. Unless you specifically need thewatchdog now (to take aikar timings or debug lag), you don't need to take any action. 
+[2025-12-07 19:44:31] [INFO   ] It is recommended to pregenerate to reduce lag problems. 
+[2025-12-07 19:44:31] [INFO   ] Watchdog Thread hooked. 
+[2025-12-07 19:44:31] [INFO   ]  bStats Metrics enabled. 
+[2025-12-07 19:44:31] [INFO   ]  Detected version: v1_21_R1, packName: v1_21_R1 
