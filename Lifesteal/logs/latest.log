@@ -1,710 +1,374 @@
-[19:43:56] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-LTS; Microsoft Microsoft-12574458) on Linux 6.8.0-1030-azure (amd64)
-[19:43:56] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[19:43:56] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[19:43:58] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/SCore-5.25.11.30.jar'...
-[19:43:58] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/ExecutableItems-7.25.11.30.jar'...
-[19:43:58] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/MythicMobs-5.10.0.jar'...
-[19:43:58] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/dimensioncontrol.jar'...
-[19:43:59] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/dimensioncontrol.jar' in 1087ms.
-[19:43:59] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/lifesteal-smp-1.4.0.jar'...
-[19:43:59] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/lifesteal-smp-1.4.0.jar' in 367ms.
-[19:43:59] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/wolfyutils-spigot-4.17-beta.7.jar'...
-[19:43:59] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ExecutableItems-7.25.11.30.jar' in 1697ms.
-[19:44:01] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SCore-5.25.11.30.jar' in 3451ms.
-[19:44:02] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/wolfyutils-spigot-4.17-beta.7.jar' in 2510ms.
-[19:44:04] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/MythicMobs-5.10.0.jar' in 6797ms.
-[19:44:05] [ServerMain/INFO]: [PluginInitializerManager] Initialized 18 plugins
-[19:44:05] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (18):
+[20:00:35] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-LTS; Microsoft Microsoft-12574458) on Linux 6.8.0-1030-azure (amd64)
+[20:00:35] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[20:00:35] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:00:36] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/TerraformGenerator-24.3.1-LEGACY.jar'...
+[20:00:37] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/TerraformGenerator-24.3.1-LEGACY.jar' in 1429ms.
+[20:00:37] [ServerMain/INFO]: [PluginInitializerManager] Initialized 18 plugins
+[20:00:37] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (18):
  - CustomCrafting (4.16.11), DimensionControl (1.0), ExecutableItems (7.25.11.30), GrimAC (2.3.72), LifestealSMP (1.4.0), MLAntiXray (R1HF), MythicMobs (5.10.0-${CI_COMMIT_SHORT_SHA}), MythicWeapons (1.0), Nomace (1.0), PearlTweaks (1.0.0), SCore (5.25.11.30), TerraformGenerator (24.3.1), ViaBackwards (5.2.1), ViaRewind (4.0.4), ViaRewind-Legacy-Support (1.5.2), ViaVersion (5.2.1), WolfyUtilities (4.17-beta.7), supersimplecombat (0.2.5)
-[19:44:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:44:08] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[19:44:08] [ServerMain/INFO]: Found new data pack paper, loading it automatically
-[19:44:09] [ServerMain/INFO]: No existing world data, creating new world
-[19:44:10] [ServerMain/INFO]: Loaded 1290 recipes
-[19:44:10] [ServerMain/INFO]: Loaded 1399 advancements
-[19:44:10] [Server thread/INFO]: Starting minecraft server version 1.21
-[19:44:10] [Server thread/INFO]: Loading properties
-[19:44:10] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[19:44:11] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[19:44:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:44:11] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:44:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[19:44:12] [Server thread/INFO]: Default game type: SURVIVAL
-[19:44:12] [Server thread/INFO]: Generating keypair
-[19:44:12] [Server thread/INFO]: Starting Minecraft server on *:25566
-[19:44:12] [Server thread/INFO]: Using epoll channel type
-[19:44:12] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[19:44:12] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[19:44:13] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loading 1 libraries... please wait
-[19:44:13] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-all/4.1.118.Final/netty-all-4.1.118.Final.pom
-[19:44:13] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.118.Final/netty-buffer-4.1.118.Final.pom
-[19:44:13] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.118.Final/netty-parent-4.1.118.Final.pom
-[19:44:13] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
-[19:44:13] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.118.Final/netty-codec-4.1.118.Final.pom
-[19:44:13] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.118.Final/netty-codec-dns-4.1.118.Final.pom
-[19:44:14] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-haproxy/4.1.118.Final/netty-codec-haproxy-4.1.118.Final.pom
-[19:44:14] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.118.Final/netty-codec-http-4.1.118.Final.pom
-[19:44:14] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.118.Final/netty-codec-http2-4.1.118.Final.pom
-[19:44:14] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-memcache/4.1.118.Final/netty-codec-memcache-4.1.118.Final.pom
-[19:44:14] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-mqtt/4.1.118.Final/netty-codec-mqtt-4.1.118.Final.pom
-[19:44:14] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-redis/4.1.118.Final/netty-codec-redis-4.1.118.Final.pom
-[19:44:14] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-smtp/4.1.118.Final/netty-codec-smtp-4.1.118.Final.pom
-[19:44:14] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.118.Final/netty-codec-socks-4.1.118.Final.pom
-[19:44:14] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-stomp/4.1.118.Final/netty-codec-stomp-4.1.118.Final.pom
-[19:44:14] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-xml/4.1.118.Final/netty-codec-xml-4.1.118.Final.pom
-[19:44:14] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.118.Final/netty-common-4.1.118.Final.pom
-[19:44:14] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.118.Final/netty-handler-4.1.118.Final.pom
-[19:44:14] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.118.Final/netty-transport-native-unix-common-4.1.118.Final.pom
-[19:44:14] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.118.Final/netty-handler-proxy-4.1.118.Final.pom
-[19:44:14] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler-ssl-ocsp/4.1.118.Final/netty-handler-ssl-ocsp-4.1.118.Final.pom
-[19:44:14] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.118.Final/netty-resolver-4.1.118.Final.pom
-[19:44:14] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.118.Final/netty-resolver-dns-4.1.118.Final.pom
-[19:44:15] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.118.Final/netty-transport-4.1.118.Final.pom
-[19:44:15] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-rxtx/4.1.118.Final/netty-transport-rxtx-4.1.118.Final.pom
-[19:44:15] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-sctp/4.1.118.Final/netty-transport-sctp-4.1.118.Final.pom
-[19:44:15] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-udt/4.1.118.Final/netty-transport-udt-4.1.118.Final.pom
-[19:44:15] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.1.118.Final/netty-transport-classes-epoll-4.1.118.Final.pom
-[19:44:15] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-kqueue/4.1.118.Final/netty-transport-classes-kqueue-4.1.118.Final.pom
-[19:44:15] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-classes-macos/4.1.118.Final/netty-resolver-dns-classes-macos-4.1.118.Final.pom
-[19:44:15] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final.pom
-[19:44:15] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-kqueue/4.1.118.Final/netty-transport-native-kqueue-4.1.118.Final.pom
-[19:44:15] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.118.Final/netty-resolver-dns-native-macos-4.1.118.Final.pom
-[19:44:15] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-all/4.1.118.Final/netty-all-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.118.Final/netty-buffer-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.118.Final/netty-codec-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-haproxy/4.1.118.Final/netty-codec-haproxy-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.118.Final/netty-codec-http-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.118.Final/netty-codec-dns-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-memcache/4.1.118.Final/netty-codec-memcache-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.118.Final/netty-codec-http2-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-mqtt/4.1.118.Final/netty-codec-mqtt-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-redis/4.1.118.Final/netty-codec-redis-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-smtp/4.1.118.Final/netty-codec-smtp-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.118.Final/netty-codec-socks-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-xml/4.1.118.Final/netty-codec-xml-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.118.Final/netty-common-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.118.Final/netty-transport-native-unix-common-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.118.Final/netty-handler-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-stomp/4.1.118.Final/netty-codec-stomp-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.118.Final/netty-handler-proxy-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler-ssl-ocsp/4.1.118.Final/netty-handler-ssl-ocsp-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.118.Final/netty-resolver-dns-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.118.Final/netty-resolver-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-rxtx/4.1.118.Final/netty-transport-rxtx-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.118.Final/netty-transport-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-sctp/4.1.118.Final/netty-transport-sctp-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-udt/4.1.118.Final/netty-transport-udt-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.1.118.Final/netty-transport-classes-epoll-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-x86_64.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-classes-macos/4.1.118.Final/netty-resolver-dns-classes-macos-4.1.118.Final.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-aarch_64.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-kqueue/4.1.118.Final/netty-transport-native-kqueue-4.1.118.Final-osx-x86_64.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-riscv64.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-kqueue/4.1.118.Final/netty-transport-native-kqueue-4.1.118.Final-osx-aarch_64.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.118.Final/netty-resolver-dns-native-macos-4.1.118.Final-osx-x86_64.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.118.Final/netty-resolver-dns-native-macos-4.1.118.Final-osx-aarch_64.jar
-[19:44:15] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-kqueue/4.1.118.Final/netty-transport-classes-kqueue-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-all/4.1.118.Final/netty-all-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-buffer/4.1.118.Final/netty-buffer-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec/4.1.118.Final/netty-codec-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-dns/4.1.118.Final/netty-codec-dns-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-haproxy/4.1.118.Final/netty-codec-haproxy-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-http/4.1.118.Final/netty-codec-http-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-http2/4.1.118.Final/netty-codec-http2-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-memcache/4.1.118.Final/netty-codec-memcache-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-mqtt/4.1.118.Final/netty-codec-mqtt-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-redis/4.1.118.Final/netty-codec-redis-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-smtp/4.1.118.Final/netty-codec-smtp-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-socks/4.1.118.Final/netty-codec-socks-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-stomp/4.1.118.Final/netty-codec-stomp-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-xml/4.1.118.Final/netty-codec-xml-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-common/4.1.118.Final/netty-common-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-handler/4.1.118.Final/netty-handler-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-native-unix-common/4.1.118.Final/netty-transport-native-unix-common-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-handler-proxy/4.1.118.Final/netty-handler-proxy-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-handler-ssl-ocsp/4.1.118.Final/netty-handler-ssl-ocsp-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-resolver/4.1.118.Final/netty-resolver-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-resolver-dns/4.1.118.Final/netty-resolver-dns-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport/4.1.118.Final/netty-transport-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-rxtx/4.1.118.Final/netty-transport-rxtx-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-sctp/4.1.118.Final/netty-transport-sctp-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-udt/4.1.118.Final/netty-transport-udt-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-classes-epoll/4.1.118.Final/netty-transport-classes-epoll-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-classes-kqueue/4.1.118.Final/netty-transport-classes-kqueue-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-resolver-dns-classes-macos/4.1.118.Final/netty-resolver-dns-classes-macos-4.1.118.Final.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-x86_64.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-aarch_64.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-riscv64.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-native-kqueue/4.1.118.Final/netty-transport-native-kqueue-4.1.118.Final-osx-x86_64.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-native-kqueue/4.1.118.Final/netty-transport-native-kqueue-4.1.118.Final-osx-aarch_64.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-resolver-dns-native-macos/4.1.118.Final/netty-resolver-dns-native-macos-4.1.118.Final-osx-x86_64.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-resolver-dns-native-macos/4.1.118.Final/netty-resolver-dns-native-macos-4.1.118.Final-osx-aarch_64.jar
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.pom
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-bom/4.16.0/adventure-bom-4.16.0.pom
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.pom
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/examination-api/1.3.0/examination-api-1.3.0.pom
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/examination-string/1.3.0/examination-string-1.3.0.pom
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.1.0/annotations-24.1.0.pom
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.pom
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.pom
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.13.1/adventure-api-4.13.1.pom
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-bom/4.13.1/adventure-bom-4.13.1.pom
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.13.1/adventure-key-4.13.1.pom
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.0.1/annotations-24.0.1.pom
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.pom
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.pom
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.pom
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.pom
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.pom
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.pom
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.pom
-[19:44:16] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.pom
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.pom
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.pom
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/option/1.0.0/option-1.0.0.pom
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
-[19:44:17] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
-[19:44:17] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
-[19:44:17] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
-[19:44:17] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
-[19:44:17] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[19:44:17] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[19:44:17] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[19:44:17] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[19:44:17] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
-[19:44:17] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
-[19:44:17] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
-[19:44:17] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
-[19:44:17] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
-[19:44:17] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loading 3 libraries... please wait
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/inject/guice/5.1.0/guice-5.1.0.pom
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/inject/guice-parent/5.1.0/guice-parent-5.1.0.pom
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/google/5/google-5.pom
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/30.1-jre/guava-30.1-jre.pom
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/30.1-jre/guava-parent-30.1-jre.pom
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
-[19:44:17] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
-[19:44:18] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
-[19:44:18] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.pom
-[19:44:18] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.pom
-[19:44:18] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.3.4/error_prone_parent-2.3.4.pom
-[19:44:18] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom
-[19:44:18] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.pom
-[19:44:18] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/52/commons-parent-52.pom
-[19:44:18] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom
-[19:44:18] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.1/junit-bom-5.7.1.pom
-[19:44:18] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.pom
-[19:44:18] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/inject/guice/5.1.0/guice-5.1.0.jar
-[19:44:18] [BasicRepositoryConnector-repo.maven.apache.org-2-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
-[19:44:18] [BasicRepositoryConnector-repo.maven.apache.org-2-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar
-[19:44:18] [BasicRepositoryConnector-repo.maven.apache.org-2-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
-[19:44:18] [BasicRepositoryConnector-repo.maven.apache.org-2-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar
-[19:44:18] [BasicRepositoryConnector-repo.maven.apache.org-2-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar
-[19:44:18] [BasicRepositoryConnector-repo.maven.apache.org-2-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
-[19:44:18] [BasicRepositoryConnector-repo.maven.apache.org-2-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar
-[19:44:19] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/com/google/inject/guice/5.1.0/guice-5.1.0.jar
-[19:44:19] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
-[19:44:19] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
-[19:44:19] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar
-[19:44:19] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
-[19:44:19] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
-[19:44:19] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
-[19:44:19] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar
-[19:44:19] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar
-[19:44:19] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
-[19:44:19] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
-[19:44:19] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar
-[19:44:21] [Server thread/INFO]: [me.wolfyscript.lib.org.reflections.Reflections] Reflections took 648 ms to scan 1 urls, producing 924 keys and 3724 values
-[19:44:21] [Server thread/INFO]: [WolfyUtilities] Register Default StackIdentifiers
-[19:44:22] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[19:44:22] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[19:44:23] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[19:44:23] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[19:44:25] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[19:44:25] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[19:44:26] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[19:44:26] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[19:44:26] [Server thread/INFO]: [SCore] Loading server plugin SCore v5.25.11.30
-[19:44:26] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.10.0-${CI_COMMIT_SHORT_SHA}
-[19:44:26] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
-[19:44:26] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
-[19:44:26] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
-[19:44:26] [Server thread/INFO]: [WolfyUtilities] Loading server plugin WolfyUtilities v4.17-beta.7
-[19:44:26] [Server thread/INFO]: [WolfyUtilities] Register JSON de-/serializers
-[19:44:26] [Server thread/INFO]: [WolfyUtilities] Register JSON Operators
-[19:44:26] [Server thread/INFO]: [WolfyUtilities] Register JSON Value Providers
-[19:44:26] [Server thread/INFO]: [WolfyUtilities] Register CustomItem NBT Checks
-[19:44:26] [Server thread/INFO]: [WolfyUtilities] Register CustomItem Actions
-[19:44:26] [Server thread/INFO]: [WolfyUtilities] Register CustomItem Events
-[19:44:26] [Server thread/INFO]: [WolfyUtilities] Register Particle Animators
-[19:44:26] [Server thread/INFO]: [WolfyUtilities] Register Particle Shapes
-[19:44:26] [Server thread/INFO]: [WolfyUtilities] Register Particle Timers
-[19:44:26] [Server thread/INFO]: [WolfyUtilities] Register Custom Block Data
-[19:44:26] [Server thread/INFO]: [WolfyUtilities] Register Custom Player Data
-[19:44:26] [Server thread/INFO]: [WolfyUtilities] Register NBT Query Nodes
-[19:44:26] [Server thread/INFO]: [MythicWeapons] Loading server plugin MythicWeapons v1.0
-[19:44:26] [Server thread/INFO]: [LifestealSMP] Loading server plugin LifestealSMP v1.4.0
-[19:44:26] [Server thread/INFO]: [Nomace] Loading server plugin Nomace v1.0
-[19:44:26] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.5.2
-[19:44:26] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v24.3.1
-[19:44:26] [Server thread/INFO]: [MLAntiXray] Loading server plugin MLAntiXray vR1HF
-[19:44:26] [Server thread/INFO]: [DimensionControl] Loading server plugin DimensionControl v1.0
-[19:44:26] [Server thread/INFO]: [PearlTweaks] Loading server plugin PearlTweaks v1.0.0
-[19:44:26] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.72
-[19:44:27] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
-[19:44:29] [Server thread/INFO]: [CustomCrafting] Loading server plugin CustomCrafting v4.16.11
-[19:44:29] [Server thread/INFO]: [CustomCrafting] WolfyUtils API: v4.17-beta.7
-[19:44:29] [Server thread/INFO]: [CustomCrafting] CustomCrafting: v4.16.11
-[19:44:29] [Server thread/INFO]: [CustomCrafting] Environment   : PROD
-[19:44:29] [Server thread/INFO]: [CustomCrafting] Registering CustomItem Data
-[19:44:29] [Server thread/INFO]: [CustomCrafting] Registering Custom Block Data
-[19:44:29] [Server thread/INFO]: [CustomCrafting] Registering Result Extensions
-[19:44:29] [Server thread/INFO]: [CustomCrafting] Registering Result Merge Adapters
-[19:44:29] [Server thread/INFO]: [CustomCrafting] Registering Recipe Conditions
-[19:44:29] [Server thread/INFO]: [CustomCrafting] Registering Recipe Types
-[19:44:29] [Server thread/INFO]: [CustomCrafting] Registering Anvil Recipe Tasks
-[19:44:29] [Server thread/INFO]: [CustomCrafting] Registering Type Registries
-[19:44:29] [Server thread/INFO]: [supersimplecombat] Loading server plugin supersimplecombat v0.2.5
-[19:44:29] [Server thread/INFO]: [ExecutableItems] Loading server plugin ExecutableItems v7.25.11.30
-[19:44:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:44:29] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
-[19:44:29] [Server thread/INFO]: [WolfyUtilities] Enabling WolfyUtilities v4.17-beta.7
-[19:44:29] [Server thread/INFO]: [WolfyUtilities] Minecraft version: 1.21.0
-[19:44:29] [Server thread/INFO]: [WolfyUtilities] WolfyUtils version: 4.17.0.0
-[19:44:29] [Server thread/INFO]: [WolfyUtilities] Environment: PROD
-[19:44:29] [Server thread/INFO]: [WolfyUtilities] Loading Plugin integrations: 
-[19:44:29] [Server thread/INFO]: [WolfyUtilities]  - ExecutableItems
-[19:44:29] [Server thread/INFO]: [WolfyUtilities]  - MythicMobs
-[19:44:29] [Server thread/INFO]: [WolfyUtilities] Create & Init Plugin integrations: 
-[19:44:29] [Server thread/INFO]: [WolfyUtilities] Register API references
-[19:44:30] [Server thread/INFO]: [WolfyUtilities] Loading stored Custom Items
-[19:44:30] [Server thread/INFO]: [WolfyUtilities] Loading Creative Mode Tabs
-[19:44:30] [Server thread/INFO]: [Nomace] Enabling Nomace v1.0
-[19:44:30] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v24.3.1
-[19:44:31] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
-[19:44:31] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
-[19:44:31] [Server thread/INFO]: [TerraformGenerator] Detected version: v1_21_R1, packName: v1_21_R1
-[19:44:31] [Server thread/ERROR]: Error occurred while enabling TerraformGenerator v24.3.1 (Is it up to date?)
-java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/v1_21_R1/CraftServer
-	at TerraformGenerator-24.3.1.jar/org.terraform.v1_21_R1.CustomBiomeHandler.init(CustomBiomeHandler.java:40) ~[TerraformGenerator-24.3.1.jar:?]
-	at TerraformGenerator-24.3.1.jar/org.terraform.v1_21_R1.NMSInjector.startupTasks(NMSInjector.java:43) ~[TerraformGenerator-24.3.1.jar:?]
-	at TerraformGenerator-24.3.1.jar/org.terraform.main.TerraformGeneratorPlugin.onEnable(TerraformGeneratorPlugin.java:145) ~[TerraformGenerator-24.3.1.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:293) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.ClassNotFoundException: org.bukkit.craftbukkit.v1_21_R1.CraftServer
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:197) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
-	... 13 more
-[19:44:31] [Server thread/INFO]: [TerraformGenerator] Disabling TerraformGenerator v24.3.1
-[19:44:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:44:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:44:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:44:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:44:31] [Server thread/INFO]: Preparing level "world"
-[19:44:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:44:51] [Server thread/INFO]: Time elapsed: 9778 ms
-[19:44:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:44:51] [Server thread/INFO]: Time elapsed: 530 ms
-[19:44:51] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[19:44:51] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[19:44:51] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[19:44:51] [Server thread/INFO]: [SCore] Enabling SCore v5.25.11.30
-[19:44:51] [Server thread/INFO]: SCore The library part of SCore is initializing ... (by SCore)
-[19:44:51] [Server thread/INFO]: SCore ExecutableItems hooked !  (7.25.11.30) Load After
-[19:44:51] [Server thread/INFO]: SCore MythicMobs hooked !  (5.10.0-${CI_COMMIT_SHORT_SHA}) Load After
-[19:44:51] [Server thread/INFO]: SCore CustomCrafting hooked !  (4.16.11) Load After
-[19:44:51] [Server thread/INFO]: SCore Creating the file: config.yml from the plugin jar (url: jar:file:/workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/plugins/.paper-remapped/SCore-5.25.11.30.jar!/config.yml)
-[19:44:51] [Server thread/INFO]: SCore Locale setup: EN
-[19:44:51] [Server thread/INFO]: SCore Language of the editor setup on EN
-[19:44:51] [Server thread/INFO]: SCore Creating the file: language_en.yml from the plugin jar (url: jar:file:/workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/plugins/.paper-remapped/SCore-5.25.11.30.jar!/language_en.yml)
-[19:44:51] [Server thread/INFO]: SCore will connect to the database hosted: In Local
-[19:44:51] [Server thread/INFO]: SCore Connection to the db...
-[19:44:51] [Server thread/INFO]: SCore will connect to the database hosted: In Local
-[19:44:51] [Server thread/INFO]: SCore Creating table SecurityOP if not exists...
-[19:44:51] [Server thread/INFO]: SCore Creating table Commands if not exists...
-[19:44:51] [Server thread/INFO]: SCore Creating table Cooldowns if not exists...
-[19:44:51] [Server thread/INFO]: SCore Creating table Commands Player if not exists...
-[19:44:51] [Server thread/INFO]: SCore Creating table Commands Entity if not exists...
-[19:44:51] [Server thread/INFO]: SCore Creating table Commands Block if not exists...
-[19:44:51] [Server thread/INFO]: SCore Creating table UsePerDay if not exists...
-[19:44:51] [Server thread/INFO]: SCore Creating table AbsorptionQuery if not exists...
-[19:44:51] [Server thread/INFO]: SCore Creating table ATemporaryAttributesQuery if not exists...
-[19:44:51] [Server thread/INFO]: SCore SCore loaded 0 delayed commands saved
-[19:44:52] [Server thread/INFO]: ================ SCore ================
-[19:44:52] [Server thread/INFO]: SCore is running on Folia
-[19:44:52] [Server thread/INFO]: SCore is running on Paper or fork
-[19:44:52] [Server thread/INFO]: SCore Version of the server 1.21-130-b1b5d4c (MC: 1.21) !
-[19:44:52] [Server thread/INFO]: SCore Language for in-game messages setup on EN
-[19:44:52] [Server thread/INFO]: SCore Update of actionbarMessage in your for the plugin > SCore in language: EN
-[19:44:52] [Server thread/INFO]: SCore Update of actionbarEnd in your for the plugin > SCore in language: EN
-[19:44:52] [Server thread/INFO]: SCore Update of setActionbarOn in your for the plugin > SCore in language: EN
-[19:44:52] [Server thread/INFO]: SCore Update of setActionbarOff in your for the plugin > SCore in language: EN
-[19:44:52] [Server thread/INFO]: SCore Update of haveActionbarOn in your for the plugin > SCore in language: EN
-[19:44:52] [Server thread/INFO]: SCore Update of haveActionbarOff in your for the plugin > SCore in language: EN
-[19:44:52] [Server thread/INFO]: SCore Update of errorMoneyMsg in your for the plugin > SCore in language: EN
-[19:44:52] [Server thread/INFO]: SCore Update of newBalanceMsg in your for the plugin > SCore in language: EN
-[19:44:52] [Server thread/INFO]: SCore Update of newBalancePositiveMsg in your for the plugin > SCore in language: EN
-[19:44:52] [Server thread/INFO]: SCore Update of noPlayerHit in your for the plugin > SCore in language: EN
-[19:44:52] [Server thread/INFO]: SCore Update of noEntityHit in your for the plugin > SCore in language: EN
-[19:44:52] [Server thread/INFO]: SCore Update of damageCommandKill in your for the plugin > SCore in language: EN
-[19:44:52] [Server thread/INFO]: SCore Update of variableValueSet in your for the plugin > SCore in language: EN
-[19:44:52] [Server thread/INFO]: SCore Update of variableDefaultValueSet in your for the plugin > SCore in language: EN
-[19:44:52] [Server thread/INFO]: SCore Update of shapeExecuted in your for the plugin > SCore in language: EN
-[19:44:52] [Server thread/INFO]: SCore CANT LOAD YOUR PROJECTILES, FOLDER 'projectiles' not found !
-[19:44:52] [Server thread/INFO]: SCore It will generate 56 default projectiles from jar : /com/ssomar/score/configs/projectiles/
-[19:44:52] [Server thread/INFO]: SCore /Default/arrow1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /Default/egg1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /Default/enderpearl1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /Default/fireball1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /Default/lingering1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /Default/shulkerbullet1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /Default/snowball1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /Default/trident1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /Default/tridentCustom1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /Default/type.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /Default/witherskull1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/BLACK_HOLE_PROJECTILE.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/DEFAULT_INVISIBLE_ARROW.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/DEFAULT_INVISIBLE_ARROW_NO_GRAVITY.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/DEFAULT_INVISIBLE_ARROW_NO_GRAVITY_SPEED.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/FAIRYTAIL_GRAY_FULLBUSTER_1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/FAIRYTAIL_NATSU_DRAGNEEL_1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/FATE_ARCHER_1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/FATE_ARCHER_2.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/FATE_CASTER_1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/FATE_CASTER_2.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/FATE_CASTER_3.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/FATE_GILGAMESH_1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/FATE_GILGAMESH_2.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/FATE_GILGAMESH_3.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/FATE_RIDER_1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/FIRE_WAND_PROJECTILE.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/HUNTERXHUNTER_GON_FREECSS_1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/HUNTERXHUNTER_KURAPIKA_1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/JERRY-CHIME_GUN_PROJECTILE_FILE.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/MADOKA_HOMURA_AKEMI_1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/MADOKA_MADOKA_KANAME_1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/MADOKA_MAMI_TOMOE_1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/MHA_DENKI_KAMINARI_1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/MHA_IZUKU_MIDORIYA_1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/MHA_MINA_ASHIDO_ACID_1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/MHA_MINA_ASHIDO_ACID_2.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/MHA_SHOTO_TODOROKI_2.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/ONEPIECE_001_1_FIRE_FIST.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/ONEPIECE_001_2_FIRE_GUN.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/ONEPIECE_001_3_FIREFLY.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/ONEPIECE_002_1_FREEZE_BEAM.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/ONEPIECE_002_2_FREEZE_BOMB.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/ONEPIECE_003_1_TELEPORT.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/ONEPIECE_003_2_LIGHTNING_STRIKE.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/ONEPIECE_004_1_BLACK_HOLE.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/ONEPIECE_005_1_FLIGHT.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/ONEPIECE_005_2_FLAME_WALL.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/ONEPIECE_005_3_FIREBALL.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/OPM_GENOS_1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/OPM_SPEED_O_SONIC_1.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/PACK_2_06.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/PACK_2_12.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/proj_pumpkin.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/proj_rainbow_projectile.yml was created !
-[19:44:52] [Server thread/INFO]: SCore /projectiles_not_editable/proj_tornado_blade.yml was created !
-[19:44:52] [Server thread/INFO]: SCore DEFAULT PROJECTILES CREATED !
-[19:44:52] [Server thread/INFO]: SCore CANT LOAD YOUR HARDNESSES, FOLDER 'hardnesses' not found !
-[19:44:52] [Server thread/INFO]: SCore It will generate 1 default hardnesses from jar : /com/ssomar/score/configs/hardnesses/
-[19:44:52] [Server thread/INFO]: SCore /Default/example.yml was created !
-[19:44:52] [Server thread/INFO]: SCore DEFAULT HARDNESSES CREATED !
-[19:44:52] [Server thread/INFO]: SCore CANT LOAD YOUR VARIABLES, FOLDER 'variables' not found !
-[19:44:52] [Server thread/INFO]: SCore It will generate 1 default variables from jar : /com/ssomar/score/configs/variables/
-[19:44:52] [Server thread/INFO]: SCore /Default/example.yml was created !
-[19:44:52] [Server thread/INFO]: SCore DEFAULT VARIABLES CREATED !
-[19:44:53] [Server thread/INFO]: SCore SCore loaded 1 variables from local files !
-[19:44:53] [Server thread/INFO]: [SCore] CustomListsManager: Loaded entity list 'ANNOYING_MOBS' with 3 entries
-[19:44:53] [Server thread/INFO]: [SCore] CustomListsManager: Loaded entity list 'HOSTILE_MOBS' with 4 entries
-[19:44:53] [Server thread/INFO]: [SCore] CustomListsManager: Loaded block list 'STUPID_BLOCKS' with 3 entries
-[19:44:53] [Server thread/INFO]: [SCore] CustomListsManager: Loaded block list 'ORES' with 5 entries
-[19:44:53] [Server thread/INFO]: [SCore] CustomListsManager: Loaded 2 entity lists and 2 block lists
-[19:44:53] [Server thread/INFO]: ================ SCore ================
-[19:44:53] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.10.0-${CI_COMMIT_SHORT_SHA}
-[19:44:53] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.21.0)...
-[19:44:53] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
-[19:44:57] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[19:44:58] [Server thread/INFO]: [MythicMobs] Loading Items...
-[19:44:58] [Server thread/INFO]: [MythicMobs] File ExampleItems.yml not found! Creating a new one...
-[19:44:58] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[19:44:58] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[19:44:58] [Server thread/INFO]: [MythicMobs] File ExampleSkills.yml not found! Creating a new one...
-[19:44:58] [Server thread/INFO]: [MythicMobs] File VanillaMobs.yml not found! Creating a new one...
-[19:44:58] [Server thread/INFO]: [MythicMobs] File ExampleMobs.yml not found! Creating a new one...
-[19:44:58] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[19:44:58] [Server thread/INFO]: [MythicMobs] File ExampleDropTables.yml not found! Creating a new one...
-[19:44:58] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[19:44:58] [Server thread/INFO]: [MythicMobs] File ExampleRandomSpawns.yml not found! Creating a new one...
-[19:44:58] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[19:44:58] [Server thread/INFO]: [MythicMobs] Spawners folder not found! Creating...
-[19:44:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
-[19:44:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[19:44:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[19:44:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 skills.
-[19:44:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[19:44:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[19:44:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[19:44:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[19:44:58] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
-[19:44:59] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
-[19:44:59] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.10.0 ( build ${CI_COMMIT_SHORT_SHA} ) has been successfully loaded!
-[19:44:59] [Server thread/INFO]: [WolfyUtilities] Enabled plugin integration for MythicMobs
-[19:44:59] [Server thread/INFO]: [MythicWeapons] Enabling MythicWeapons v1.0
-[19:44:59] [Server thread/INFO]: [MythicWeapons] Plugin has been enabled!
-[19:44:59] [Server thread/INFO]: [LifestealSMP] Enabling LifestealSMP v1.4.0
-[19:44:59] [Server thread/INFO]: Enabling LifestealSMP...
-[19:44:59] [Server thread/INFO]: [LifestealSMP] [Lang] Created default language file: lang_en.yml
-[19:44:59] [Server thread/INFO]: [Lang] Created default language file: lang_en.yml
-[19:44:59] [Server thread/INFO]: [LifestealSMP] [DatabaseManager] Using SQLite backend.
-[19:44:59] [Server thread/INFO]: [DatabaseManager] Using SQLite backend.
-[19:44:59] [Server thread/INFO]: [LifestealSMP] [DatabaseManager] Using SQLite backend.
-[19:44:59] [Server thread/INFO]: [LifestealSMP] SQLite connection established.
-[19:44:59] [Server thread/INFO]: [LifestealSMP] SQLite table 'player_hearts' ensured.
-[19:44:59] [Server thread/INFO]: SQLite connection established.
-[19:44:59] [Server thread/INFO]: SQLite table 'player_hearts' ensured.
-[19:44:59] [Server thread/INFO]: [Recipe] Heart crafting recipe registered.
-[19:44:59] [Server thread/INFO]: [Recipe] Revive Beacon recipe registered.
-[19:44:59] [Server thread/INFO]: Heart § revive beacon recipes registered.
-[19:44:59] [Server thread/INFO]: PlaceholderAPI not found. Placeholders will not be available.
-[19:44:59] [Server thread/INFO]: LifestealSMP enabled successfully.
-[19:44:59] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
-[19:44:59] [Server thread/INFO]: [MLAntiXray] Enabling MLAntiXray vR1HF
-[19:44:59] [Server thread/INFO]: [DimensionControl] Enabling DimensionControl v1.0
-[19:44:59] [Server thread/INFO]: [DimensionControl] DimensionControl has been enabled!
-[19:44:59] [Server thread/INFO]: [PearlTweaks] Enabling PearlTweaks v1.0.0
-[19:44:59] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.72
-[19:44:59] [Server thread/INFO]: [GrimAC] Registering packets...
-[19:44:59] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
-[19:45:00] [Server thread/INFO]: Grim Version: 2.3.72
-[19:45:00] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
-[19:45:00] [Server thread/INFO]: [CustomCrafting] Enabling CustomCrafting v4.16.11
-[19:45:00] [Server thread/INFO]: [CustomCrafting] Loaded fallback language "en_US" v6.1.0 translated by WolfyScript
-[19:45:00] [Server thread/INFO]: [CustomCrafting] Loaded active language "en_US" v6.1.0 translated by WolfyScript
-[19:45:00] [Server thread/INFO]: [CustomCrafting] ____ _  _ ____ ___ ____ _  _ ____ ____ ____ ____ ___ _ _  _ ____ 
-[19:45:00] [Server thread/INFO]: [CustomCrafting] |    |  | [__   |  |  | |\/| |    |__/ |__| |___  |  | |\ | | __ 
-[19:45:00] [Server thread/INFO]: [CustomCrafting] |___ |__| ___]  |  |__| |  | |___ |  \ |  | |     |  | | \| |__]
-[19:45:00] [Server thread/INFO]: [CustomCrafting]     Version      | v4.16.11
-[19:45:00] [Server thread/INFO]: [CustomCrafting]     WolfyUtils   | v4.17-beta.7
-[19:45:00] [Server thread/INFO]: [CustomCrafting]     Bukkit       | 1.21-130-b1b5d4c (MC: 1.21)(API: 1.21-R0.1-SNAPSHOT)
-[19:45:00] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:45:00] [Server thread/INFO]: [CustomCrafting] 
-[19:45:00] [Server thread/INFO]: [CustomCrafting] Special thanks to my Patrons for supporting this project: 
-[19:45:00] [Server thread/INFO]: [CustomCrafting] Omarlatif, Nat R, Obsidian_Sword, LiveJunye, Mithran, Teddy
-[19:45:00] [Server thread/INFO]: [CustomCrafting] Invictus_Vulpes , Luuk Musch, fioxu, JorshStark, Perny Dev, Charlie
-[19:45:00] [Server thread/INFO]: [CustomCrafting] iachen, whja t, Green Masks, lance fector, Jack Snellings, MineHouse Server
-[19:45:00] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
-[19:45:00] [Server thread/INFO]: [CustomCrafting] Data destination: LOCAL
-[19:45:00] [Server thread/INFO]: [CustomCrafting] Initiating Inventory GUIs
-[19:45:00] [Server thread/INFO]: [CustomCrafting] Register ItemCreator Tabs
-[19:45:01] [Server thread/INFO]: [CustomCrafting] Loading Recipes & Items
-[19:45:01] [Server thread/INFO]: [CustomCrafting] - - - - [Local Storage] - - - -
-[19:45:01] [Server thread/INFO]: [CustomCrafting] [LOCAL] Using 4 threads
-[19:45:01] [Server thread/INFO]: [CustomCrafting] [LOCAL] Looking through data folder...
-[19:45:01] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loading Items
-[19:45:02] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loading Recipes
-[19:45:02] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loaded 2 recipes in 88ms
-[19:45:02] [Server thread/INFO]: [CustomCrafting] Creating backup of data directory '2025-12-07_19-45-02-196.zip'...
-[19:45:02] [Server thread/INFO]: [CustomCrafting] Updating Items & Recipes to the latest format..
-[19:45:02] [Server thread/INFO]: [CustomCrafting] Creating backup of data directory '2025-12-07_19-45-02-204.zip'...
-[19:45:02] [Server thread/INFO]: [CustomCrafting] Loading updated Items & Recipes...
-[19:45:02] [Server thread/INFO]: [CustomCrafting] - - - - [Local Storage] - - - -
-[19:45:02] [Server thread/INFO]: [CustomCrafting] [LOCAL] Using 4 threads
-[19:45:02] [Server thread/INFO]: [CustomCrafting] [LOCAL] Looking through data folder...
-[19:45:02] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loading Items
-[19:45:02] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loading Recipes
-[19:45:02] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loaded 2 recipes in 0ms
-[19:45:02] [Server thread/INFO]: [CustomCrafting] Indexing Recipe Book...
-[19:45:02] [Server thread/INFO]: [CustomCrafting] Indexed Recipe Book!
-[19:45:02] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
-[19:45:02] [Server thread/INFO]: [supersimplecombat] Enabling supersimplecombat v0.2.5
-[19:45:02] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v7.25.11.30
-[19:45:02] [Server thread/INFO]: ================ ExecutableItems ================
-[19:45:02] [Server thread/WARN]: [ExecutableItems] No pack found in the folder __textures__
-[19:45:05] [Server thread/INFO]: ExecutableItems CANT LOAD YOUR ITEMS, FOLDER 'items' not found !
-[19:45:05] [Server thread/INFO]: ExecutableItems It will generate 258 default items from jar : /com/ssomar/executableitems/configs/items/
-[19:45:05] [Server thread/INFO]: ExecutableItems /Crates/Free_Custom_Crate_v1_8.yml was created !
-[19:45:05] [Server thread/INFO]: ExecutableItems /Crates/Free_Lotery_v1_8.yml was created !
-[19:45:05] [Server thread/INFO]: ExecutableItems /Fanstasy_Pack/No_Config/Free_FLAT_calamityblade_thin.yml was created !
-[19:45:05] [Server thread/INFO]: ExecutableItems /Fun/Free_Spit_v1_12.yml was created !
-[19:45:05] [Server thread/INFO]: ExecutableItems /Misc/Free_Epic_Anvil_v1_8.yml was created !
-[19:45:05] [Server thread/INFO]: ExecutableItems /Misc/Free_Fly_v1_8.yml was created !
-[19:45:05] [Server thread/INFO]: ExecutableItems /Misc/Free_Money_v1_8.yml was created !
-[19:45:05] [Server thread/INFO]: ExecutableItems /Potions/Free_Epic_Potion_v1_8.yml was created !
-[19:45:05] [Server thread/INFO]: ExecutableItems /Potions/Free_Heal_v1_8.yml was created !
-[19:45:05] [Server thread/INFO]: ExecutableItems /Projectiles/Free_Epic_Pearl_v1_8.yml was created !
-[19:45:05] [Server thread/INFO]: ExecutableItems /Projectiles/Free_Epic_Snowball_v1_8.yml was created !
-[19:45:05] [Server thread/INFO]: ExecutableItems /Projectiles/Free_Homing_Arrow_v1_8.yml was created !
-[19:45:05] [Server thread/INFO]: ExecutableItems /Pvp/Free_Drop_Ball_v1_8.yml was created !
-[19:45:05] [Server thread/INFO]: ExecutableItems /Pvp/Free_Stun_Ball_v1_8.yml was created !
-[19:45:05] [Server thread/INFO]: ExecutableItems /Tools/Free_Bucket5.yml was created !
-[19:45:05] [Server thread/INFO]: ExecutableItems /Tools/Free_Drain_Sponge.yml was created !
-[19:45:05] [Server thread/INFO]: ExecutableItems /Tools/Free_Wifi_Crafting_Table.yml was created !
-[19:45:05] [Server thread/INFO]: ExecutableItems /Tools/Free_Wifi_Enderchest.yml was created !
-[19:45:05] [Server thread/INFO]: ExecutableItems DEFAULT ITEMS CREATED !
-[19:45:05] [Server thread/INFO]: ExecutableItems Amount of Executable Items configurations loaded: 18
-[19:45:05] [Server thread/INFO]: SCore Update of receiveItem in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of fullInventory in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of timeLeft in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of requirePermission in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of giveMessage in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of use in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of noHit in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of noEntityHit in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of cancelCraft in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of pickupLimitMessage in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of disableWorld in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of requiredEIFirstPart in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of requiredEIQuantity in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of requiredEISeparator in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of requiredItemsFirstPart in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of requiredItemsQuantity in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of requiredItemsSeparator in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of requiredLevel in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of waitProjectile in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of invalidOwner in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of errorUPDItem in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of errorUPDActivator in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of customCommandDamageKillMessage in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of noOwner in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: SCore Update of refreshValid in your for the plugin > ExecutableItems in language: EN
-[19:45:05] [Server thread/INFO]: ExecutableItems Items with display conditions :  
-[19:45:05] [Server thread/INFO]: ================ ExecutableItems ================
-[19:45:05] [Server thread/INFO]: [WolfyUtilities] Enabled plugin integration for ExecutableItems
-[19:45:06] [Server thread/INFO]: [spark] Starting background profiler...
-[19:45:07] [Server thread/INFO]: Done preparing level "world" (35.726s)
-[19:45:07] [Server thread/INFO]: Running delayed init tasks
-[19:45:07] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[19:45:07] [Server thread/INFO]: Done (71.545s)! For help, type "help"
-[19:45:07] [Server thread/INFO]: Timings Reset
-[19:45:07] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.5.1, you're on: 5.2.1
-[19:45:07] [Craft Scheduler Thread - 6 - GrimAC/INFO]: You are using the latest version of GrimAC
-[19:50:20] [User Authenticator #0/INFO]: UUID of player ysyyayyyayya is 6cd4e570-7a49-3521-8e89-4b4b5c6269c5
-[19:50:22] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
-[19:50:23] [Server thread/INFO]: [LifestealSMP] No record found for UUID: 6cd4e570-7a49-3521-8e89-4b4b5c6269c5
-[19:50:23] [Server thread/INFO]: ysyyayyyayya joined the game
-[19:50:23] [Server thread/INFO]: ysyyayyyayya[/127.0.0.1:58006] logged in with entity id 29 at ([world]22.5, 76.0, 58.5)
-[19:50:24] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[19:50:24] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[19:50:24] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
-[19:50:24] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[19:50:24] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
-[19:50:24] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[19:50:24] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
-[19:50:24] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[19:50:24] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[19:50:24] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
-[19:50:25] [Netty Epoll Server IO #1/INFO]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] Loading block mappings for V_1_20_5/15...
-[19:50:26] [Netty Epoll Server IO #1/INFO]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] Finished loading block mappings for V_1_20_5/15 in 486.323669ms
-[19:56:41] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[19:56:41] [Server thread/INFO]: ysyyayyyayya lost connection: Server is restarting
-[19:56:41] [Server thread/INFO]: ysyyayyyayya left the game
-[19:56:41] [Server thread/INFO]: Stopping server
-[19:56:41] [Server thread/INFO]: [ExecutableItems] Disabling ExecutableItems v7.25.11.30
-[19:56:41] [Server thread/INFO]: [supersimplecombat] Disabling supersimplecombat v0.2.5
-[19:56:41] [Server thread/INFO]: [CustomCrafting] Disabling CustomCrafting v4.16.11
-[19:56:41] [Server thread/INFO]: [GrimAC] Disabling GrimAC v2.3.72
-[19:56:41] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
-[19:56:41] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
-[19:56:41] [Server thread/INFO]: [PearlTweaks] Disabling PearlTweaks v1.0.0
-[19:56:41] [Server thread/INFO]: [DimensionControl] Disabling DimensionControl v1.0
-[19:56:41] [Server thread/INFO]: [DimensionControl] DimensionControl has been disabled!
-[19:56:41] [Server thread/INFO]: [MLAntiXray] Disabling MLAntiXray vR1HF
-[19:56:41] [Server thread/INFO]: [ViaRewind-Legacy-Support] Disabling ViaRewind-Legacy-Support v1.5.2
-[19:56:41] [Server thread/INFO]: [Nomace] Disabling Nomace v1.0
-[19:56:41] [Server thread/INFO]: [LifestealSMP] Disabling LifestealSMP v1.4.0
-[19:56:41] [Server thread/INFO]: [LifestealSMP] SQLite connection closed.
-[19:56:41] [Server thread/INFO]: Database connections closed.
-[19:56:41] [Server thread/INFO]: [Recipe] All custom recipes unregistered.
-[19:56:41] [Server thread/INFO]: Recipes unregistered.
-[19:56:41] [Server thread/INFO]: LifestealSMP disabled.
-[19:56:41] [Server thread/INFO]: [MythicWeapons] Disabling MythicWeapons v1.0
-[19:56:41] [Server thread/INFO]: [MythicWeapons] Plugin has been disabled!
-[19:56:41] [Server thread/INFO]: [WolfyUtilities] Disabling WolfyUtilities v4.17-beta.7
-[19:56:41] [Server thread/INFO]: [WolfyUtilities] Save stored Custom Items
-[19:56:41] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.4
-[19:56:41] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.10.0-${CI_COMMIT_SHORT_SHA}
-[19:56:41] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[19:56:41] [Server thread/INFO]: [MythicMobs] - 
-[19:56:41] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
-[19:56:41] [Server thread/INFO]: [MythicMobs] - 
-[19:56:41] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[19:56:41] [Server thread/INFO]: [MythicMobs] - Spawners saved and unloaded...
-[19:56:41] [Server thread/INFO]: [MythicMobs] - Mobs saved and unloaded...
-[19:56:41] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[19:56:41] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[19:56:41] [Server thread/INFO]: [MythicMobs] - Variables saved...
-[19:56:41] [Server thread/INFO]: [MythicMobs] - All active settings have been saved!
-[19:56:41] [Server thread/INFO]: [MythicMobs] - Mythic has been unloaded!
-[19:56:41] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[19:56:41] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[19:56:41] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[19:56:41] [Server thread/INFO]: [SCore] Disabling SCore v5.25.11.30
-[19:56:41] [Server thread/INFO]: SCore Save UsagePerDay....
-[19:56:41] [Server thread/INFO]: SCore Save UsagePerDay done !
-[19:56:41] [Server thread/INFO]: SCore Save Commands...
-[19:56:41] [Server thread/INFO]: SCore Save Commands done !
-[19:56:41] [Server thread/INFO]: SCore Save Cooldowns...
-[19:56:41] [Server thread/INFO]: SCore 0 cooldowns saved
-[19:56:41] [Server thread/INFO]: SCore Save Cooldowns done !
-[19:56:41] [Server thread/INFO]: SCore Run delayed saving tasks...
-[19:56:41] [Server thread/INFO]: SCore Run delayed saving tasks done !
-[19:56:41] [Server thread/INFO]: SCore Clear scheduled tasks...
-[19:56:41] [Server thread/INFO]: SCore Clear scheduled tasks done !
-[19:56:41] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
-[19:56:41] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
-[19:56:41] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[19:56:41] [Server thread/INFO]: Saving players
-[19:56:41] [Server thread/INFO]: Saving worlds
-[19:56:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:56:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[19:56:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[19:56:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[19:56:42] [Server thread/INFO]: [ChunkHolderManager] Saved 1682 block chunks, 122 entity chunks, 0 poi chunks in world 'world' in 0.89s
-[19:56:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[19:56:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[19:56:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[19:56:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[19:56:42] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.24s
-[19:56:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:56:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:56:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:00:42] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:00:44] [ServerMain/INFO]: Loaded 1290 recipes
+[20:00:44] [ServerMain/INFO]: Loaded 1399 advancements
+[20:00:44] [Server thread/INFO]: Starting minecraft server version 1.21
+[20:00:44] [Server thread/INFO]: Loading properties
+[20:00:44] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[20:00:45] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:00:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:00:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:00:46] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[20:00:46] [Server thread/INFO]: Default game type: SURVIVAL
+[20:00:46] [Server thread/INFO]: Generating keypair
+[20:00:46] [Server thread/INFO]: Starting Minecraft server on *:25566
+[20:00:46] [Server thread/INFO]: Using epoll channel type
+[20:00:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:00:46] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[20:00:47] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loading 1 libraries... please wait
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-all/4.1.118.Final/netty-all-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-buffer/4.1.118.Final/netty-buffer-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec/4.1.118.Final/netty-codec-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-dns/4.1.118.Final/netty-codec-dns-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-haproxy/4.1.118.Final/netty-codec-haproxy-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-http/4.1.118.Final/netty-codec-http-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-http2/4.1.118.Final/netty-codec-http2-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-memcache/4.1.118.Final/netty-codec-memcache-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-mqtt/4.1.118.Final/netty-codec-mqtt-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-redis/4.1.118.Final/netty-codec-redis-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-smtp/4.1.118.Final/netty-codec-smtp-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-socks/4.1.118.Final/netty-codec-socks-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-stomp/4.1.118.Final/netty-codec-stomp-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-codec-xml/4.1.118.Final/netty-codec-xml-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-common/4.1.118.Final/netty-common-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-handler/4.1.118.Final/netty-handler-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-native-unix-common/4.1.118.Final/netty-transport-native-unix-common-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-handler-proxy/4.1.118.Final/netty-handler-proxy-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-handler-ssl-ocsp/4.1.118.Final/netty-handler-ssl-ocsp-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-resolver/4.1.118.Final/netty-resolver-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-resolver-dns/4.1.118.Final/netty-resolver-dns-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport/4.1.118.Final/netty-transport-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-rxtx/4.1.118.Final/netty-transport-rxtx-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-sctp/4.1.118.Final/netty-transport-sctp-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-udt/4.1.118.Final/netty-transport-udt-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-classes-epoll/4.1.118.Final/netty-transport-classes-epoll-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-classes-kqueue/4.1.118.Final/netty-transport-classes-kqueue-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-resolver-dns-classes-macos/4.1.118.Final/netty-resolver-dns-classes-macos-4.1.118.Final.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-x86_64.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-aarch_64.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-riscv64.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-native-kqueue/4.1.118.Final/netty-transport-native-kqueue-4.1.118.Final-osx-x86_64.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-transport-native-kqueue/4.1.118.Final/netty-transport-native-kqueue-4.1.118.Final-osx-aarch_64.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-resolver-dns-native-macos/4.1.118.Final/netty-resolver-dns-native-macos-4.1.118.Final-osx-x86_64.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/io/netty/netty-resolver-dns-native-macos/4.1.118.Final/netty-resolver-dns-native-macos-4.1.118.Final-osx-aarch_64.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loading 3 libraries... please wait
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/com/google/inject/guice/5.1.0/guice-5.1.0.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+[20:00:48] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Lifesteal/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar
+[20:00:51] [Server thread/INFO]: [me.wolfyscript.lib.org.reflections.Reflections] Reflections took 609 ms to scan 1 urls, producing 924 keys and 3724 values
+[20:00:51] [Server thread/INFO]: [WolfyUtilities] Register Default StackIdentifiers
+[20:00:52] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[20:00:52] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[20:00:53] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:00:54] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:00:55] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:00:55] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:00:56] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[20:00:57] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[20:00:57] [Server thread/INFO]: [SCore] Loading server plugin SCore v5.25.11.30
+[20:00:57] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.10.0-${CI_COMMIT_SHORT_SHA}
+[20:00:57] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[20:00:57] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
+[20:00:57] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
+[20:00:57] [Server thread/INFO]: [WolfyUtilities] Loading server plugin WolfyUtilities v4.17-beta.7
+[20:00:57] [Server thread/INFO]: [WolfyUtilities] Register JSON de-/serializers
+[20:00:57] [Server thread/INFO]: [WolfyUtilities] Register JSON Operators
+[20:00:57] [Server thread/INFO]: [WolfyUtilities] Register JSON Value Providers
+[20:00:57] [Server thread/INFO]: [WolfyUtilities] Register CustomItem NBT Checks
+[20:00:57] [Server thread/INFO]: [WolfyUtilities] Register CustomItem Actions
+[20:00:57] [Server thread/INFO]: [WolfyUtilities] Register CustomItem Events
+[20:00:57] [Server thread/INFO]: [WolfyUtilities] Register Particle Animators
+[20:00:57] [Server thread/INFO]: [WolfyUtilities] Register Particle Shapes
+[20:00:57] [Server thread/INFO]: [WolfyUtilities] Register Particle Timers
+[20:00:57] [Server thread/INFO]: [WolfyUtilities] Register Custom Block Data
+[20:00:57] [Server thread/INFO]: [WolfyUtilities] Register Custom Player Data
+[20:00:57] [Server thread/INFO]: [WolfyUtilities] Register NBT Query Nodes
+[20:00:57] [Server thread/INFO]: [MythicWeapons] Loading server plugin MythicWeapons v1.0
+[20:00:57] [Server thread/INFO]: [LifestealSMP] Loading server plugin LifestealSMP v1.4.0
+[20:00:57] [Server thread/INFO]: [Nomace] Loading server plugin Nomace v1.0
+[20:00:57] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.5.2
+[20:00:57] [Server thread/INFO]: [MLAntiXray] Loading server plugin MLAntiXray vR1HF
+[20:00:57] [Server thread/INFO]: [DimensionControl] Loading server plugin DimensionControl v1.0
+[20:00:57] [Server thread/INFO]: [PearlTweaks] Loading server plugin PearlTweaks v1.0.0
+[20:00:57] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v24.3.1
+[20:00:57] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.72
+[20:00:57] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[20:01:00] [Server thread/INFO]: [CustomCrafting] Loading server plugin CustomCrafting v4.16.11
+[20:01:00] [Server thread/INFO]: [CustomCrafting] WolfyUtils API: v4.17-beta.7
+[20:01:00] [Server thread/INFO]: [CustomCrafting] CustomCrafting: v4.16.11
+[20:01:00] [Server thread/INFO]: [CustomCrafting] Environment   : PROD
+[20:01:00] [Server thread/INFO]: [CustomCrafting] Registering CustomItem Data
+[20:01:00] [Server thread/INFO]: [CustomCrafting] Registering Custom Block Data
+[20:01:00] [Server thread/INFO]: [CustomCrafting] Registering Result Extensions
+[20:01:00] [Server thread/INFO]: [CustomCrafting] Registering Result Merge Adapters
+[20:01:00] [Server thread/INFO]: [CustomCrafting] Registering Recipe Conditions
+[20:01:00] [Server thread/INFO]: [CustomCrafting] Registering Recipe Types
+[20:01:00] [Server thread/INFO]: [CustomCrafting] Registering Anvil Recipe Tasks
+[20:01:00] [Server thread/INFO]: [CustomCrafting] Registering Type Registries
+[20:01:00] [Server thread/INFO]: [supersimplecombat] Loading server plugin supersimplecombat v0.2.5
+[20:01:00] [Server thread/INFO]: [ExecutableItems] Loading server plugin ExecutableItems v7.25.11.30
+[20:01:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:01:00] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
+[20:01:00] [Server thread/INFO]: [WolfyUtilities] Enabling WolfyUtilities v4.17-beta.7
+[20:01:00] [Server thread/INFO]: [WolfyUtilities] Minecraft version: 1.21.0
+[20:01:00] [Server thread/INFO]: [WolfyUtilities] WolfyUtils version: 4.17.0.0
+[20:01:00] [Server thread/INFO]: [WolfyUtilities] Environment: PROD
+[20:01:00] [Server thread/INFO]: [WolfyUtilities] Loading Plugin integrations: 
+[20:01:00] [Server thread/INFO]: [WolfyUtilities]  - ExecutableItems
+[20:01:00] [Server thread/INFO]: [WolfyUtilities]  - MythicMobs
+[20:01:00] [Server thread/INFO]: [WolfyUtilities] Create & Init Plugin integrations: 
+[20:01:00] [Server thread/INFO]: [WolfyUtilities] Register API references
+[20:01:01] [Server thread/INFO]: [WolfyUtilities] Loading stored Custom Items
+[20:01:01] [Server thread/INFO]: [WolfyUtilities] Loading Creative Mode Tabs
+[20:01:02] [Server thread/INFO]: [Nomace] Enabling Nomace v1.0
+[20:01:02] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v24.3.1
+[20:01:02] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
+[20:01:02] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
+[20:01:02] [Server thread/INFO]: [TerraformGenerator] Detected version: v1_21_R1, packName: v1_21_R1
+[20:01:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:01:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:01:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:01:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:01:03] [Server thread/INFO]: Preparing level "world"
+[20:01:03] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
+[20:01:03] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
+[20:01:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:01:04] [Server thread/INFO]: Time elapsed: 1123 ms
+[20:01:04] [Server thread/INFO]: [TerraformGenerator] world loaded.
+[20:01:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:01:04] [Server thread/INFO]: Time elapsed: 147 ms
+[20:01:04] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[20:01:04] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[20:01:04] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[20:01:04] [Server thread/INFO]: [SCore] Enabling SCore v5.25.11.30
+[20:01:04] [Server thread/INFO]: SCore The library part of SCore is initializing ... (by SCore)
+[20:01:05] [Server thread/INFO]: SCore ExecutableItems hooked !  (7.25.11.30) Load After
+[20:01:05] [Server thread/INFO]: SCore MythicMobs hooked !  (5.10.0-${CI_COMMIT_SHORT_SHA}) Load After
+[20:01:05] [Server thread/INFO]: SCore CustomCrafting hooked !  (4.16.11) Load After
+[20:01:05] [Server thread/INFO]: SCore Locale setup: EN
+[20:01:05] [Server thread/INFO]: SCore Language of the editor setup on EN
+[20:01:05] [Server thread/INFO]: SCore will connect to the database hosted: In Local
+[20:01:05] [Server thread/INFO]: SCore Connection to the db...
+[20:01:05] [Server thread/INFO]: SCore will connect to the database hosted: In Local
+[20:01:05] [Server thread/INFO]: SCore Creating table SecurityOP if not exists...
+[20:01:05] [Server thread/INFO]: SCore Creating table Commands if not exists...
+[20:01:05] [Server thread/INFO]: SCore Creating table Cooldowns if not exists...
+[20:01:05] [Server thread/INFO]: SCore Creating table Commands Player if not exists...
+[20:01:05] [Server thread/INFO]: SCore Creating table Commands Entity if not exists...
+[20:01:05] [Server thread/INFO]: SCore Creating table Commands Block if not exists...
+[20:01:05] [Server thread/INFO]: SCore Creating table UsePerDay if not exists...
+[20:01:05] [Server thread/INFO]: SCore Creating table AbsorptionQuery if not exists...
+[20:01:05] [Server thread/INFO]: SCore Creating table ATemporaryAttributesQuery if not exists...
+[20:01:05] [Server thread/INFO]: SCore SCore loaded 0 delayed commands saved
+[20:01:05] [Server thread/INFO]: ================ SCore ================
+[20:01:05] [Server thread/INFO]: SCore is running on Folia
+[20:01:05] [Server thread/INFO]: SCore is running on Paper or fork
+[20:01:05] [Server thread/INFO]: SCore Version of the server 1.21-130-b1b5d4c (MC: 1.21) !
+[20:01:05] [Server thread/INFO]: SCore Language for in-game messages setup on EN
+[20:01:06] [Server thread/INFO]: SCore SCore loaded 1 variables from local files !
+[20:01:06] [Server thread/INFO]: [SCore] CustomListsManager: Loaded entity list 'ANNOYING_MOBS' with 3 entries
+[20:01:06] [Server thread/INFO]: [SCore] CustomListsManager: Loaded entity list 'HOSTILE_MOBS' with 4 entries
+[20:01:06] [Server thread/INFO]: [SCore] CustomListsManager: Loaded block list 'STUPID_BLOCKS' with 3 entries
+[20:01:06] [Server thread/INFO]: [SCore] CustomListsManager: Loaded block list 'ORES' with 5 entries
+[20:01:06] [Server thread/INFO]: [SCore] CustomListsManager: Loaded 2 entity lists and 2 block lists
+[20:01:06] [Server thread/INFO]: ================ SCore ================
+[20:01:06] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.10.0-${CI_COMMIT_SHORT_SHA}
+[20:01:06] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.21.0)...
+[20:01:06] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
+[20:01:11] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[20:01:11] [Server thread/INFO]: [MythicMobs] Loading Items...
+[20:01:11] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[20:01:11] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[20:01:12] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[20:01:12] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[20:01:12] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[20:01:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[20:01:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[20:01:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[20:01:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 skills.
+[20:01:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[20:01:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[20:01:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[20:01:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[20:01:12] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[20:01:13] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[20:01:13] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.10.0 ( build ${CI_COMMIT_SHORT_SHA} ) has been successfully loaded!
+[20:01:13] [Server thread/INFO]: [WolfyUtilities] Enabled plugin integration for MythicMobs
+[20:01:13] [Server thread/INFO]: [MythicWeapons] Enabling MythicWeapons v1.0
+[20:01:13] [Server thread/INFO]: [MythicWeapons] Plugin has been enabled!
+[20:01:13] [Server thread/INFO]: [LifestealSMP] Enabling LifestealSMP v1.4.0
+[20:01:13] [Server thread/INFO]: Enabling LifestealSMP...
+[20:01:13] [Server thread/INFO]: [Lang] Created default language file: lang_en.yml
+[20:01:13] [Server thread/INFO]: [LifestealSMP] [DatabaseManager] Using SQLite backend.
+[20:01:13] [Server thread/INFO]: [DatabaseManager] Using SQLite backend.
+[20:01:13] [Server thread/INFO]: [LifestealSMP] [DatabaseManager] Using SQLite backend.
+[20:01:13] [Server thread/INFO]: [LifestealSMP] SQLite connection established.
+[20:01:13] [Server thread/INFO]: [LifestealSMP] SQLite table 'player_hearts' ensured.
+[20:01:13] [Server thread/INFO]: SQLite connection established.
+[20:01:13] [Server thread/INFO]: SQLite table 'player_hearts' ensured.
+[20:01:13] [Server thread/INFO]: [Recipe] Heart crafting recipe registered.
+[20:01:13] [Server thread/INFO]: [Recipe] Revive Beacon recipe registered.
+[20:01:13] [Server thread/INFO]: Heart § revive beacon recipes registered.
+[20:01:13] [Server thread/INFO]: PlaceholderAPI not found. Placeholders will not be available.
+[20:01:13] [Server thread/INFO]: LifestealSMP enabled successfully.
+[20:01:13] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
+[20:01:13] [Server thread/INFO]: [MLAntiXray] Enabling MLAntiXray vR1HF
+[20:01:13] [Server thread/INFO]: [DimensionControl] Enabling DimensionControl v1.0
+[20:01:13] [Server thread/INFO]: [DimensionControl] DimensionControl has been enabled!
+[20:01:13] [Server thread/INFO]: [PearlTweaks] Enabling PearlTweaks v1.0.0
+[20:01:13] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.72
+[20:01:13] [Server thread/INFO]: [GrimAC] Registering packets...
+[20:01:13] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[20:01:14] [Server thread/INFO]: Grim Version: 2.3.72
+[20:01:14] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[20:01:14] [Server thread/INFO]: [CustomCrafting] Enabling CustomCrafting v4.16.11
+[20:01:14] [Server thread/INFO]: [CustomCrafting] Loaded fallback language "en_US" v6.1.0 translated by WolfyScript
+[20:01:14] [Server thread/INFO]: [CustomCrafting] Loaded active language "en_US" v6.1.0 translated by WolfyScript
+[20:01:14] [Server thread/INFO]: [CustomCrafting] ____ _  _ ____ ___ ____ _  _ ____ ____ ____ ____ ___ _ _  _ ____ 
+[20:01:14] [Server thread/INFO]: [CustomCrafting] |    |  | [__   |  |  | |\/| |    |__/ |__| |___  |  | |\ | | __ 
+[20:01:14] [Server thread/INFO]: [CustomCrafting] |___ |__| ___]  |  |__| |  | |___ |  \ |  | |     |  | | \| |__]
+[20:01:14] [Server thread/INFO]: [CustomCrafting]     Version      | v4.16.11
+[20:01:14] [Server thread/INFO]: [CustomCrafting]     WolfyUtils   | v4.17-beta.7
+[20:01:14] [Server thread/INFO]: [CustomCrafting]     Bukkit       | 1.21-130-b1b5d4c (MC: 1.21)(API: 1.21-R0.1-SNAPSHOT)
+[20:01:14] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:01:14] [Server thread/INFO]: [CustomCrafting] 
+[20:01:14] [Server thread/INFO]: [CustomCrafting] Special thanks to my Patrons for supporting this project: 
+[20:01:14] [Server thread/INFO]: [CustomCrafting] Omarlatif, Nat R, Obsidian_Sword, LiveJunye, Mithran, Teddy
+[20:01:14] [Server thread/INFO]: [CustomCrafting] Invictus_Vulpes , Luuk Musch, fioxu, JorshStark, Perny Dev, Charlie
+[20:01:14] [Server thread/INFO]: [CustomCrafting] iachen, whja t, Green Masks, lance fector, Jack Snellings, MineHouse Server
+[20:01:14] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
+[20:01:14] [Server thread/INFO]: [CustomCrafting] Data destination: LOCAL
+[20:01:14] [Server thread/INFO]: [CustomCrafting] Initiating Inventory GUIs
+[20:01:14] [Server thread/INFO]: [CustomCrafting] Register ItemCreator Tabs
+[20:01:15] [Server thread/INFO]: [CustomCrafting] Loading Recipes & Items
+[20:01:15] [Server thread/INFO]: [CustomCrafting] - - - - [Local Storage] - - - -
+[20:01:15] [Server thread/INFO]: [CustomCrafting] [LOCAL] Using 4 threads
+[20:01:15] [Server thread/INFO]: [CustomCrafting] [LOCAL] Looking through data folder...
+[20:01:15] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loading Items
+[20:01:15] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loading Recipes
+[20:01:15] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loaded 2 recipes in 86ms
+[20:01:15] [Server thread/INFO]: [CustomCrafting] Indexing Recipe Book...
+[20:01:15] [Server thread/INFO]: [CustomCrafting] Indexed Recipe Book!
+[20:01:15] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
+[20:01:15] [Server thread/INFO]: [supersimplecombat] Enabling supersimplecombat v0.2.5
+[20:01:15] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v7.25.11.30
+[20:01:15] [Server thread/INFO]: ================ ExecutableItems ================
+[20:01:16] [Server thread/WARN]: [ExecutableItems] No pack found in the folder __textures__
+[20:01:18] [Server thread/INFO]: ExecutableItems Amount of Executable Items configurations loaded: 18
+[20:01:18] [Server thread/INFO]: ExecutableItems Items with display conditions :  
+[20:01:18] [Server thread/INFO]: ================ ExecutableItems ================
+[20:01:18] [Server thread/INFO]: [WolfyUtilities] Enabled plugin integration for ExecutableItems
+[20:01:18] [Server thread/INFO]: [spark] Starting background profiler...
+[20:01:19] [Server thread/INFO]: Done preparing level "world" (16.136s)
+[20:01:19] [Server thread/INFO]: Running delayed init tasks
+[20:01:19] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[20:01:19] [Server thread/INFO]: Done (45.222s)! For help, type "help"
+[20:01:19] [Server thread/INFO]: Timings Reset
+[20:01:19] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.5.1, you're on: 5.2.1
+[20:01:19] [Craft Scheduler Thread - 7 - GrimAC/INFO]: You are using the latest version of GrimAC
+[20:01:53] [Server thread/INFO]: Stopping the server
+[20:01:53] [Server thread/INFO]: Stopping server
+[20:01:53] [Server thread/INFO]: [ExecutableItems] Disabling ExecutableItems v7.25.11.30
+[20:01:53] [Server thread/INFO]: [supersimplecombat] Disabling supersimplecombat v0.2.5
+[20:01:53] [Server thread/INFO]: [CustomCrafting] Disabling CustomCrafting v4.16.11
+[20:01:53] [Server thread/INFO]: [GrimAC] Disabling GrimAC v2.3.72
+[20:01:53] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
+[20:01:53] [Server thread/INFO]: [TerraformGenerator] Disabling TerraformGenerator v24.3.1
+[20:01:53] [Server thread/INFO]: [PearlTweaks] Disabling PearlTweaks v1.0.0
+[20:01:53] [Server thread/INFO]: [DimensionControl] Disabling DimensionControl v1.0
+[20:01:53] [Server thread/INFO]: [DimensionControl] DimensionControl has been disabled!
+[20:01:53] [Server thread/INFO]: [MLAntiXray] Disabling MLAntiXray vR1HF
+[20:01:53] [Server thread/INFO]: [ViaRewind-Legacy-Support] Disabling ViaRewind-Legacy-Support v1.5.2
+[20:01:53] [Server thread/INFO]: [Nomace] Disabling Nomace v1.0
+[20:01:53] [Server thread/INFO]: [LifestealSMP] Disabling LifestealSMP v1.4.0
+[20:01:53] [Server thread/INFO]: [LifestealSMP] SQLite connection closed.
+[20:01:53] [Server thread/INFO]: Database connections closed.
+[20:01:53] [Server thread/INFO]: [Recipe] All custom recipes unregistered.
+[20:01:53] [Server thread/INFO]: Recipes unregistered.
+[20:01:53] [Server thread/INFO]: LifestealSMP disabled.
+[20:01:53] [Server thread/INFO]: [MythicWeapons] Disabling MythicWeapons v1.0
+[20:01:53] [Server thread/INFO]: [MythicWeapons] Plugin has been disabled!
+[20:01:53] [Server thread/INFO]: [WolfyUtilities] Disabling WolfyUtilities v4.17-beta.7
+[20:01:53] [Server thread/INFO]: [WolfyUtilities] Save stored Custom Items
+[20:01:53] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.4
+[20:01:53] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.10.0-${CI_COMMIT_SHORT_SHA}
+[20:01:53] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[20:01:53] [Server thread/INFO]: [MythicMobs] - 
+[20:01:53] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
+[20:01:53] [Server thread/INFO]: [MythicMobs] - 
+[20:01:53] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[20:01:53] [Server thread/INFO]: [MythicMobs] - Spawners saved and unloaded...
+[20:01:53] [Server thread/INFO]: [MythicMobs] - Mobs saved and unloaded...
+[20:01:53] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[20:01:53] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[20:01:53] [Server thread/INFO]: [MythicMobs] - Variables saved...
+[20:01:53] [Server thread/INFO]: [MythicMobs] - All active settings have been saved!
+[20:01:53] [Server thread/INFO]: [MythicMobs] - Mythic has been unloaded!
+[20:01:53] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[20:01:53] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[20:01:53] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[20:01:53] [Server thread/INFO]: [SCore] Disabling SCore v5.25.11.30
+[20:01:53] [Server thread/INFO]: SCore Save UsagePerDay....
+[20:01:53] [Server thread/INFO]: SCore Save UsagePerDay done !
+[20:01:53] [Server thread/INFO]: SCore Save Commands...
+[20:01:53] [Server thread/INFO]: SCore Save Commands done !
+[20:01:53] [Server thread/INFO]: SCore Save Cooldowns...
+[20:01:53] [Server thread/INFO]: SCore 0 cooldowns saved
+[20:01:53] [Server thread/INFO]: SCore Save Cooldowns done !
+[20:01:53] [Server thread/INFO]: SCore Run delayed saving tasks...
+[20:01:53] [Server thread/INFO]: SCore Run delayed saving tasks done !
+[20:01:53] [Server thread/INFO]: SCore Clear scheduled tasks...
+[20:01:53] [Server thread/INFO]: SCore Clear scheduled tasks done !
+[20:01:53] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[20:01:53] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[20:01:53] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[20:01:53] [Server thread/INFO]: Saving players
+[20:01:53] [Server thread/INFO]: Saving worlds
+[20:01:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:01:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:01:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:01:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:01:54] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.34s
+[20:01:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:01:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:01:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:01:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:01:54] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.07s
+[20:01:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:01:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:01:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
