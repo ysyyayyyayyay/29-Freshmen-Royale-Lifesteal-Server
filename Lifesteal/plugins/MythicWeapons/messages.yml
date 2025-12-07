@@ -1,0 +1,32 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                       Notes                          | #
+# +------------------------------------------------------+ #
+############################################################
+# Do not add anything extra in configuration file
+# important steps:
+#   - If a value is in quotes ( "" These things ). Removing them can cause config errors!
+#   - You must restart the server after changing something from here
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     Configuration                    | #
+# +------------------------------------------------------+ #
+############################################################
+
+prefix: "&7[&3MythicWeapons&7]"
+
+permission-error: "{prefix}&c You don't have permission to use this!"
+player-command-only: "{prefix}&c Only player's can use this!"
+unknown-player: "{prefix}&c Unknown player"
+
+usages:
+  mythicweapon-get: "{prefix}&c Usage: /mythicweapon get <item>"
+  trust: "{prefix}&c Usage: /trust <player>"
+  untrust: "{prefix}&c Usage: /untrust <player>"
+
+why: "{prefix}&c Why? You don't have trust on yourself?"
+trusted: "{prefix}&a Trusted {player}!"
+already-trusted: "{prefix}&c {player} is already trusted!"
+not-trusted: "{prefix}&c {player} is not trusted!"
+untrusted: "{prefix}&a Removed {player} from trusted players!"

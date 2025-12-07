@@ -1,0 +1,115 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                       Notes                          | #
+# +------------------------------------------------------+ #
+############################################################
+# Do not add anything extra in configuration file
+# important steps:
+#   - If a value is in quotes ( "" These things ). Removing them can cause config errors!
+#   - You must restart the server after changing something from here
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     Configuration                    | #
+# +------------------------------------------------------+ #
+############################################################
+
+items:
+  bloodblade:
+    name: "§4Blood Blade"
+    lore:
+      - "§cEach swing contains a 10%"
+      - "§c chance to make enemies bleed"
+      - ""
+      - "§cAbility1: Dash through opponents"
+      - "§c to deal crazy damage"
+      - ""
+      - "§cAbility2: Gain the power of blood,"
+      - "§c get strength 3"
+
+    custom-id: 1001
+
+    cooldown_ab1: 20
+    cooldown_ab2: 40
+
+    bleed_chance: 10
+    bleed_time: 20 # In seconds, Note: Each 2 seconds it takes 1 heart
+
+    max_block_dash: 10 # 10 blocks
+    max_damage: 3
+
+    strength: 3
+    strength_time: 5
+
+  frozencrossbow:
+    name: "&#36C7FFFrozen Crossbow"
+    lore:
+      - "§bThe frozen arrows contain a 10%"
+      - "§b chance to freeze enemies."
+      - ""
+      - "§bAbility1: For the following 2 Arrows,"
+      - "§b enemies hit will be frozen!"
+      - ""
+      - "§bAbility2: Gain a freezing shield"
+      - "§b to protect from all attacks!"
+
+    custom-id: 1002
+
+    cooldown_ab1: 40
+    cooldown_ab2: 30
+
+    freeze_damage: 2.0
+    freeze_chance: 10
+    freeze_time: 2
+    freeze_time_2: 5
+
+    invulnerability_time: 5
+
+  dragonmace:
+    name: "&#460082Dragon Mace"
+    lore:
+      - "&5While the mysterious mace is held"
+      - "&5 Your fall damage will be reduced to zero"
+      - ""
+      - "&5Ability1: Dash through the skies like a dragon"
+      - ""
+      - "&5Ability2: Teleport to the player you're"
+      - "&5 aiming at to switch places!"
+
+    custom-id: 1003
+
+    cooldown_ab1: 20
+    cooldown_ab2: 20
+
+    max_block_dash: 15
+
+    switch_radius: 20
+
+  voidtrident:
+    name: "&0Void Trident"
+    lore:
+      - "&7Every trident thrown has a 10%"
+      - "&7 chance to blind the opponents temporarily"
+      - ""
+      - "&7Ability1: Summon a black hole, pulling people near it,"
+      - "&7 with low chance of moving far away!"
+      - ""
+      - "&7Ability2: Dash to become truly invisible"
+
+    custom-id: 1004
+
+    cooldown_ab1: 60
+    cooldown_ab2: 35
+
+    blind_chance: 10
+    blind_time: 5
+
+    blackhole_duration: 30 # 1 minute
+    blackhole_radius: 15 # Size of blackhole
+    blackhole_strength: 0.6
+    blackhole_max_distance: 100 # Max distance it can be created and pull players from
+    blackhole_damage: 3.0
+    damage_interval: 1 # In seconds
+
+    max_block_dash: 10
+    invisibility_time: 7

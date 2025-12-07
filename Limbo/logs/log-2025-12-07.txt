@@ -11,3 +11,5 @@
 13:37:35.433 INFO  Limbo -- Server started on localhost/127.0.0.1:65535
 13:37:42.776 INFO  Limbo -- Player shmewypoffinz connected (/127.0.0.1:58924) [V1_21_4]
 13:38:00.789 INFO  Limbo -- Player shmewypoffinz disconnected
+16:05:31.872 INFO  Limbo -- Starting server...
+16:05:33.760 INFO  Limbo -- Server started on localhost/127.0.0.1:65535
