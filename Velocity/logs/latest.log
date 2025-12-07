@@ -849,3 +849,5 @@ org.sqlite.SQLiteException: [SQLITE_READONLY_DBMOVED] The database file has been
 [21:05:07] [nioEventLoopGroup-2-3/INFO] [velocit]: connection to tunnel server has been established
 [21:05:07] [nioEventLoopGroup-2-3/INFO] [velocit]: connecting to minecraft server at /0.0.0.0:25765
 [21:05:07] [nioEventLoopGroup-2-4/INFO] [velocit]: connected to local minecraft server
+[21:08:09] [Thread-5/INFO] [gg.playit.control.ChannelSetup]: send keep alive
+[21:08:21] [Thread-5/INFO] [gg.playit.control.ChannelSetup]: send keep alive
