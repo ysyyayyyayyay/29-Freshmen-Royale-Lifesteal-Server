@@ -1,0 +1,20 @@
+flag_threshold: 70.0
+flag_message: '§cXRay §0> §c$player$ could be using XRay! §7ore: $ore$ Confidence:
+  $confidence$'
+enable_punishment: false
+punishment_threshold: 90.0
+punishment_command: ban $player$ 1d automatic xray detection
+mining_time_window: 600000
+ores:
+- IRON_ORE
+- GOLD_ORE
+- DIAMOND_ORE
+- ANCIENT_DEBRIS
+- DEEPSLATE_IRON_ORE
+- DEEPSLATE_DIAMOND_ORE
+- DEEPSLATE_GOLD_ORE
+only-count-unexposed-ores: false
+Webhooks-Enabled: false
+Webhooks-URL: ''
+debug-mode: false
+ML-Version: .

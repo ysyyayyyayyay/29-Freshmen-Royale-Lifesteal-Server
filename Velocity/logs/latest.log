@@ -64,3 +64,507 @@
 [16:06:13] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:41698]: Connected via websocket
 [16:06:13] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:41698]: Origin header is https://elrizzlauncher.vercel.app
 [16:06:13] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.connection.client.InitialInboundConnection]: [initial connection] /[0:0:0:0:0:0:0:1]:41698 has disconnected: You have exhausted the account limits per IP.
+[16:06:59] [Netty epoll Worker #4/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:57066]: Connected via websocket
+[16:06:59] [Netty epoll Worker #4/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:57066]: Origin header is https://eaglercraft.com
+[16:06:59] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.connection.client.InitialInboundConnection]: [initial connection] /[0:0:0:0:0:0:0:1]:57066 has disconnected: You have exhausted the account limits per IP.
+[16:07:02] [Netty epoll Worker #5/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:42778]: Connected via websocket
+[16:07:02] [Netty epoll Worker #5/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:42778]: Origin header is https://eaglercraft.com
+[16:10:27] [Netty epoll Worker #7/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:49970]: Connected via websocket
+[16:10:27] [Netty epoll Worker #7/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:49970]: Origin header is null
+[16:10:27] [Netty epoll Worker #7/INFO] [eaglerxvelocity]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:49970) has connected
+[16:10:27] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has connected
+[16:10:32] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:49970) has disconnected: You entered the incorrect password.
+[16:10:32] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has disconnected
+[16:10:38] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:53346]: Connected via websocket
+[16:10:38] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:53346]: Origin header is null
+[16:10:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.connection.client.InitialInboundConnection]: [initial connection] /[0:0:0:0:0:0:0:1]:53346 has disconnected: You have exhausted the account limits per IP.
+[16:10:43] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:36856]: Connected via websocket
+[16:10:43] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:36856]: Origin header is null
+[16:10:43] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:36856) has connected
+[16:10:43] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has connected
+[16:11:00] [nLogin - Task Executor #0/INFO] [nlogin]: The user ysyyayyyayya has successfully logged in.
+[16:11:01] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:36856): unable to connect to server lobby
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:11:06] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:36856): unable to connect to server lobby
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:11:11] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:36856): unable to connect to server lobby
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:11:14] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:59160]: Connected via websocket
+[16:11:14] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:59160]: Origin header is https://eaglercraft.com
+[16:11:14] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lifesteal has connected
+[16:11:14] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.connection.client.InitialInboundConnection]: [initial connection] /[0:0:0:0:0:0:0:1]:59160 has disconnected: You have exhausted the account limits per IP.
+[16:11:14] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lifesteal: exception encountered in com.velocitypowered.proxy.connection.backend.LoginSessionHandler@2411a286
+java.lang.IllegalStateException: Backend server is online-mode!
+	at com.velocitypowered.proxy.connection.backend.LoginSessionHandler.handle(LoginSessionHandler.java:79) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.packet.EncryptionRequestPacket.handle(EncryptionRequestPacket.java:94) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.connection.MinecraftConnection.channelRead(MinecraftConnection.java:153) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.AutoReadHolderHandler.channelRead(AutoReadHolderHandler.java:57) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.tryDecode(MinecraftDecoder.java:91) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.channelRead(MinecraftDecoder.java:60) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:11:14] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lifesteal has disconnected
+[16:11:14] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:36856): unable to connect to server lifesteal
+java.lang.IllegalStateException: Backend server is online-mode!
+	at com.velocitypowered.proxy.connection.backend.LoginSessionHandler.handle(LoginSessionHandler.java:79) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.packet.EncryptionRequestPacket.handle(EncryptionRequestPacket.java:94) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.connection.MinecraftConnection.channelRead(MinecraftConnection.java:153) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.AutoReadHolderHandler.channelRead(AutoReadHolderHandler.java:57) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.tryDecode(MinecraftDecoder.java:91) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.channelRead(MinecraftDecoder.java:60) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:11:15] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lifesteal has connected
+[16:11:15] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lifesteal: exception encountered in com.velocitypowered.proxy.connection.backend.LoginSessionHandler@6344b150
+java.lang.IllegalStateException: Backend server is online-mode!
+	at com.velocitypowered.proxy.connection.backend.LoginSessionHandler.handle(LoginSessionHandler.java:79) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.packet.EncryptionRequestPacket.handle(EncryptionRequestPacket.java:94) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.connection.MinecraftConnection.channelRead(MinecraftConnection.java:153) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.AutoReadHolderHandler.channelRead(AutoReadHolderHandler.java:57) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.tryDecode(MinecraftDecoder.java:91) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.channelRead(MinecraftDecoder.java:60) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:11:15] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lifesteal has disconnected
+[16:11:15] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:36856): unable to connect to server lifesteal
+java.lang.IllegalStateException: Backend server is online-mode!
+	at com.velocitypowered.proxy.connection.backend.LoginSessionHandler.handle(LoginSessionHandler.java:79) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.packet.EncryptionRequestPacket.handle(EncryptionRequestPacket.java:94) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.connection.MinecraftConnection.channelRead(MinecraftConnection.java:153) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.AutoReadHolderHandler.channelRead(AutoReadHolderHandler.java:57) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.tryDecode(MinecraftDecoder.java:91) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.channelRead(MinecraftDecoder.java:60) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:11:16] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:36856): unable to connect to server lobby
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:11:21] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:36856): unable to connect to server lobby
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:11:26] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:36856): unable to connect to server lobby
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:11:31] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:36856): unable to connect to server lobby
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:11:36] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:36856): unable to connect to server lobby
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:11:41] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:36856): unable to connect to server lobby
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:11:42] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:36856) has disconnected
+[16:11:42] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has disconnected
+[16:12:44] [Netty epoll Worker #4/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:36328]: Connected via websocket
+[16:12:44] [Netty epoll Worker #4/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:36328]: Origin header is null
+[16:12:44] [Netty epoll Worker #4/INFO] [eaglerxvelocity]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:36328) has connected
+[16:12:44] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has connected
+[16:12:49] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:36328) has disconnected: You entered the incorrect password.
+[16:12:49] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has disconnected
+[16:12:52] [Netty epoll Worker #5/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:56382]: Connected via websocket
+[16:12:52] [Netty epoll Worker #5/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:56382]: Origin header is null
+[16:12:52] [Netty epoll Worker #5/INFO] [eaglerxvelocity]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:56382) has connected
+[16:12:52] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has connected
+[16:12:56] [nLogin - Task Executor #0/INFO] [nlogin]: The user ysyyayyyayya has successfully logged in.
+[16:12:57] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lobby has connected
+[16:12:57] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has disconnected
+[16:13:04] [Netty epoll Worker #5/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:56382): unable to connect to server lifesteal
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25566
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:14:30] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lifesteal has connected
+[16:14:30] [Netty epoll Worker #5/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lifesteal: exception encountered in com.velocitypowered.proxy.connection.backend.LoginSessionHandler@4cfa5917
+java.lang.IllegalStateException: Backend server is online-mode!
+	at com.velocitypowered.proxy.connection.backend.LoginSessionHandler.handle(LoginSessionHandler.java:79) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.packet.EncryptionRequestPacket.handle(EncryptionRequestPacket.java:94) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.connection.MinecraftConnection.channelRead(MinecraftConnection.java:153) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.AutoReadHolderHandler.channelRead(AutoReadHolderHandler.java:57) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.tryDecode(MinecraftDecoder.java:91) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.channelRead(MinecraftDecoder.java:60) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:14:30] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lifesteal has disconnected
+[16:14:30] [Netty epoll Worker #5/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:56382): unable to connect to server lifesteal
+java.lang.IllegalStateException: Backend server is online-mode!
+	at com.velocitypowered.proxy.connection.backend.LoginSessionHandler.handle(LoginSessionHandler.java:79) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.packet.EncryptionRequestPacket.handle(EncryptionRequestPacket.java:94) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.connection.MinecraftConnection.channelRead(MinecraftConnection.java:153) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.AutoReadHolderHandler.channelRead(AutoReadHolderHandler.java:57) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.tryDecode(MinecraftDecoder.java:91) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.channelRead(MinecraftDecoder.java:60) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:15:14] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lifesteal has connected
+[16:15:14] [Netty epoll Worker #5/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lifesteal: exception encountered in com.velocitypowered.proxy.connection.backend.LoginSessionHandler@1f012c38
+java.lang.IllegalStateException: Backend server is online-mode!
+	at com.velocitypowered.proxy.connection.backend.LoginSessionHandler.handle(LoginSessionHandler.java:79) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.packet.EncryptionRequestPacket.handle(EncryptionRequestPacket.java:94) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.connection.MinecraftConnection.channelRead(MinecraftConnection.java:153) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.AutoReadHolderHandler.channelRead(AutoReadHolderHandler.java:57) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.tryDecode(MinecraftDecoder.java:91) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.channelRead(MinecraftDecoder.java:60) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:15:14] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lifesteal has disconnected
+[16:15:14] [Netty epoll Worker #5/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:56382): unable to connect to server lifesteal
+java.lang.IllegalStateException: Backend server is online-mode!
+	at com.velocitypowered.proxy.connection.backend.LoginSessionHandler.handle(LoginSessionHandler.java:79) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.packet.EncryptionRequestPacket.handle(EncryptionRequestPacket.java:94) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.connection.MinecraftConnection.channelRead(MinecraftConnection.java:153) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.AutoReadHolderHandler.channelRead(AutoReadHolderHandler.java:57) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.tryDecode(MinecraftDecoder.java:91) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.channelRead(MinecraftDecoder.java:60) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:15:16] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has connected
+[16:15:16] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lobby has disconnected
+[16:15:22] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lobby has connected
+[16:15:22] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has disconnected
+[16:18:51] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lifesteal has connected
+[16:18:52] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lobby has disconnected
+[16:20:23] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:56382) has disconnected
+[16:20:23] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lifesteal has disconnected
+[16:20:44] [Thread-5/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
+[16:20:44] [Thread-5/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25765
+[16:20:44] [EaglercraftXVelocity - Task Executor #7/INFO] [eaglerxvelocity]: Eaglercraft listener closed: /0.0.0.0:8081
+[16:20:44] [EaglercraftXVelocity - Task Executor #7/INFO] [eaglerxvelocity]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+[16:20:44] [EaglercraftXVelocity - Task Executor #7/INFO] [nlogin]: Successful plugin core shutdown (took 0.00s)
