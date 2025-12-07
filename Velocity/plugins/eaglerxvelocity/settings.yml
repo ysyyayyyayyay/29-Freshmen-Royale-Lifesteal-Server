@@ -1,5 +1,5 @@
 server_name: 'EaglercraftXVelocity Server'
-server_uuid: cdd379e5-bd48-428a-894a-b0bd6afaa793
+server_uuid: de556b3e-f3cc-4fe0-91fc-ed4079598a7c
 websocket_connection_timeout: 15000
 websocket_handshake_timeout: 5000
 builtin_http_server_timeout: 10000

@@ -7,7 +7,7 @@ listener_01:
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
   server_motd:
-  - '                    &l&e&k;&r&l&f[&bSigMC&f]&r&e&k.&r                        &cPixelmon &f&k.&r &bSkyblock &r&f&k.&r&9 Bedwars &r&f&k.&r&2 Minigames'
+  - '&6An EaglercraftX server'
   allow_motd: true
   allow_query: true
   min_minecraft_protocol: 47
@@ -33,7 +33,7 @@ listener_01:
   allow_voice: false
   ratelimit:
     ip:
-      enable: false
+      enable: true
       period: 90
       limit: 60
       limit_lockout: 80
@@ -42,7 +42,7 @@ listener_01:
       - '127.*'
       - '0:0:0:0:0:0:0:1'
     login:
-      enable: false
+      enable: true
       period: 50
       limit: 5
       limit_lockout: 10

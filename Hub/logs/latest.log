@@ -1,220 +1,193 @@
-[20:21:35] [ServerMain/WARN]: resource-pack-id missing, using default of 3b31e2cb-cf29-3e31-a6be-1c6f9941bbe1
-[20:21:35] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:21:37] [ServerMain/INFO]: Loaded 1175 recipes
-[20:21:38] [ServerMain/INFO]: Loaded 1276 advancements
-[20:21:38] [Server thread/INFO]: Starting minecraft server version 1.20.6
-[20:21:38] [Server thread/INFO]: Loading properties
-[20:21:38] [Server thread/INFO]: This server is running Paper version 1.20.6-151-ver/1.20.6@a4f0f5c (2024-10-30T19:13:22Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
-[20:21:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:21:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:21:40] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[13:15:12] [ServerMain/WARN]: resource-pack-id missing, using default of 3b31e2cb-cf29-3e31-a6be-1c6f9941bbe1
+[13:15:12] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:15:14] [ServerMain/INFO]: Loaded 1175 recipes
+[13:15:14] [ServerMain/INFO]: Loaded 1276 advancements
+[13:15:14] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[13:15:14] [Server thread/INFO]: Loading properties
+[13:15:14] [Server thread/INFO]: This server is running Paper version 1.20.6-151-ver/1.20.6@a4f0f5c (2024-10-30T19:13:22Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
+[13:15:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:15:15] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:15:16] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[20:21:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[20:21:40] [Server thread/INFO]: Default game type: ADVENTURE
-[20:21:40] [Server thread/INFO]: Generating keypair
-[20:21:40] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:21:40] [Server thread/INFO]: Using epoll channel type
-[20:21:40] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[20:21:40] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[20:21:42] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 5 libraries... please wait
-[20:21:42] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/ch/ethz/globis/phtree/phtree/2.8.1/phtree-2.8.1.pom
-[20:21:43] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/joml/joml/1.10.8/joml-1.10.8.pom
-[20:21:43] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil/8.5.15/fastutil-8.5.15.pom
-[20:21:43] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.pom
-[20:21:43] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.pom
-[20:21:43] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.13.1/adventure-api-4.13.1.pom
-[20:21:43] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-bom/4.13.1/adventure-bom-4.13.1.pom
-[20:21:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.13.1/adventure-key-4.13.1.pom
-[20:21:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/examination-api/1.3.0/examination-api-1.3.0.pom
-[20:21:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
-[20:21:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/examination-string/1.3.0/examination-string-1.3.0.pom
-[20:21:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.0.1/annotations-24.0.1.pom
-[20:21:44] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.pom
-[20:21:45] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.pom
-[20:21:45] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.pom
-[20:21:45] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.pom
-[20:21:45] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.pom
-[20:21:45] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.pom
-[20:21:45] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.pom
-[20:21:45] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.pom
-[20:21:45] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-bom/4.17.0/adventure-bom-4.17.0.pom
-[20:21:45] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.pom
-[20:21:45] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.pom
-[20:21:45] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.1.0/annotations-24.1.0.pom
-[20:21:45] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/ch/ethz/globis/phtree/phtree/2.8.1/phtree-2.8.1.jar
-[20:21:45] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/joml/joml/1.10.8/joml-1.10.8.jar
-[20:21:45] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.jar
-[20:21:45] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.jar
-[20:21:45] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.jar
-[20:21:45] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil/8.5.15/fastutil-8.5.15.jar
-[20:21:45] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[20:21:45] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[20:21:45] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
-[20:21:45] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
-[20:21:45] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[20:21:45] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.jar
-[20:21:45] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.jar
-[20:21:46] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/ch/ethz/globis/phtree/phtree/2.8.1/phtree-2.8.1.jar
-[20:21:46] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/org/joml/joml/1.10.8/joml-1.10.8.jar
-[20:21:46] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/it/unimi/dsi/fastutil/8.5.15/fastutil-8.5.15.jar
-[20:21:46] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.jar
-[20:21:46] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.jar
-[20:21:46] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.jar
-[20:21:46] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[20:21:46] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[20:21:46] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[20:21:46] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[20:21:46] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
-[20:21:46] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
-[20:21:46] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[20:21:46] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.jar
-[20:21:46] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.jar
-[20:21:46] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
-[20:21:46] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
-[20:21:46] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
-[20:21:46] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[20:21:46] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[20:21:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[20:21:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[20:21:48] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[20:21:48] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[20:21:49] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[20:21:49] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
-[20:21:49] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[20:21:49] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[20:21:49] [Server thread/INFO]: [DeluxeHub] Loading server plugin DeluxeHub v3.5.4
-[20:21:49] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[20:21:49] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.15
-[20:21:49] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
-[20:21:49] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
-[20:21:49] [Server thread/INFO]: [GadgetsMenu] Loading server plugin GadgetsMenu v4.17.0
-[20:21:49] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
-[20:21:49] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.37-SNAPSHOT (build 3751)
-[20:21:49] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.5.2
-[20:21:49] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.1
-[20:21:49] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
-[20:21:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:21:49] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
-[20:21:49] [Server thread/INFO]:         __    
-[20:21:49] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
-[20:21:49] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[20:21:49] [Server thread/INFO]: 
-[20:21:49] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[20:21:50] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[20:21:50] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[20:21:50] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[20:21:50] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1272ms)
-[20:21:50] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[20:21:50] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[20:21:50] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[20:21:51] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[20:21:51] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[20:21:51] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
-[20:21:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:21:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:21:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:21:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:21:51] [Server thread/INFO]: Preparing level "world"
-[20:21:51] [Server thread/INFO]: ---- Migration of old the_end folder required ----
-[20:21:51] [Server thread/INFO]: Unfortunately due to the way that Minecraft implemented multiworld support in 1.6, Bukkit requires that you move your the_end folder to a new location in order to operate correctly.
-[20:21:51] [Server thread/INFO]: We will move this folder for you, but it will mean that you need to move it back should you wish to stop using Bukkit in the future.
-[20:21:51] [Server thread/INFO]: Attempting to move world/DIM1 to world_the_end/DIM1...
-[20:21:51] [Server thread/INFO]: Success! To restore the_end in the future, simply move world_the_end/DIM1 to world/DIM1
-[20:21:51] [Server thread/INFO]: ---- Migration of old the_end folder complete ----
-[20:21:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:21:51] [Server thread/INFO]: Time elapsed: 2 ms
-[20:21:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:21:51] [Server thread/INFO]: Time elapsed: 0 ms
-[20:21:51] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[20:21:51] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.5-1.20.6 (766)
-[20:21:51] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[20:21:51] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[20:21:51] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.4
-[20:21:51] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
-[20:21:51] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
-[20:21:51] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
-[20:21:51] [Server thread/INFO]: [DeluxeHub] 
-[20:21:51] [Server thread/INFO]: [DeluxeHub] Version: 3.5.4
-[20:21:51] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
-[20:21:51] [Server thread/INFO]: [DeluxeHub] 
-[20:21:51] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
-[20:21:52] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
-[20:21:53] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.20.6! Trying to find NMS support
-[20:21:53] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R4' loaded!
-[20:21:53] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DeluxeHub' to create a bStats instance!
-[20:21:53] [Server thread/INFO]: [DeluxeHub] Loaded 17 plugin modules.
-[20:21:53] [Server thread/INFO]: [DeluxeHub] 
-[20:21:53] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 1266ms
-[20:21:53] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[20:21:53] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.15
-[20:21:53] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.20.6! Trying to find NMS support
-[20:21:53] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R4' loaded!
-[20:21:53] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
-[20:21:53] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[20:21:53] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[20:21:54] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[20:21:54] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[20:21:54] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[20:21:54] [Server thread/INFO]: [Essentials] Using locale en
-[20:21:54] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[20:21:54] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[20:21:54] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[20:21:54] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[20:21:54] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.17.0
-[20:21:54] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
-[20:21:54] [Server thread/INFO]: [GadgetsMenu]        GadgetsMenu [Free] 4.17.0 is loading...
-[20:21:54] [Server thread/INFO]: [GadgetsMenu]       [server: 1.20.6-151-a4f0f5c (MC: 1.20.6)]
-[20:21:54] [Server thread/INFO]: [GadgetsMenu]                  Running Java 21.0.9
-[20:21:54] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
-[20:21:54] [Server thread/INFO]: [GadgetsMenu]             Date Modified: 12 January 2025
-[20:21:54] [Server thread/INFO]: [GadgetsMenu]                            
-[20:21:54] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_20_R4
-[20:21:54] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
-[20:21:54] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully registered economy storage: default (GadgetsMenu)
-[20:21:54] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully set default as the active economy storage.
-[20:21:55] [Server thread/INFO]: [GadgetsMenu] Initialized Sound Effects. (took 55ms)
-[20:21:55] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:21:56] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
-[20:21:56] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database!
-[20:21:56] [Server thread/INFO]: [GadgetsMenu] Enabled Mystery Vault individual hologram.
-[20:21:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gadgetsmenu [1.0.3]
-[20:21:56] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
-[20:21:56] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
-[20:21:56] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[20:21:56] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.37-SNAPSHOT (build 3751)
-[20:21:56] [Server thread/INFO]: [Citizens] Using mojmapped server, avoiding server package checks
-[20:21:56] [Server thread/INFO]: [Citizens] Loaded 0 templates.
-[20:21:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
-[20:21:56] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
-[20:21:56] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
-[20:21:56] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
-[20:21:56] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[20:21:56] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
-[20:21:57] [Server thread/INFO]: [TAB] Loaded NMS hook in 52ms
-[20:21:57] [Server thread/INFO]: [TAB] Enabled in 494ms
-[20:21:58] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[20:21:58] [Server thread/INFO]: Running delayed init tasks
-[20:21:58] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[20:21:58] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
-[20:21:58] [Craft Scheduler Thread - 0 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
-[20:21:58] [Craft Scheduler Thread - 4 - DecentHolograms/INFO]: [DecentHolograms] Created directory plugins/DecentHolograms/animations
-[20:21:58] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[20:21:58] [Craft Scheduler Thread - 6 - GadgetsMenu/INFO]: [GadgetsMenu] Checking for updates...
-[20:21:58] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] Checking for Updates ... 
-[20:21:58] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[20:21:58] [Craft Scheduler Thread - 0 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
-[20:21:58] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] No new version available
-[20:21:58] [Craft Scheduler Thread - 5 - DecentHolograms/INFO]: 
+[13:15:16] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[13:15:16] [Server thread/INFO]: Default game type: ADVENTURE
+[13:15:16] [Server thread/INFO]: Generating keypair
+[13:15:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:15:16] [Server thread/INFO]: Using epoll channel type
+[13:15:16] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:15:16] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[13:15:17] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 5 libraries... please wait
+[13:15:19] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/ch/ethz/globis/phtree/phtree/2.8.1/phtree-2.8.1.jar
+[13:15:19] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/org/joml/joml/1.10.8/joml-1.10.8.jar
+[13:15:19] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/it/unimi/dsi/fastutil/8.5.15/fastutil-8.5.15.jar
+[13:15:19] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.jar
+[13:15:19] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.jar
+[13:15:19] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.jar
+[13:15:19] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[13:15:19] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[13:15:19] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[13:15:19] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[13:15:19] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[13:15:19] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
+[13:15:19] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[13:15:19] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.jar
+[13:15:19] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.jar
+[13:15:19] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
+[13:15:19] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
+[13:15:19] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/29-Freshmen-Royale-Lifesteal-Server/Hub/libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
+[13:15:19] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[13:15:19] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[13:15:20] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[13:15:20] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[13:15:21] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[13:15:21] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[13:15:21] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[13:15:22] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
+[13:15:22] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[13:15:22] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[13:15:22] [Server thread/INFO]: [DeluxeHub] Loading server plugin DeluxeHub v3.5.4
+[13:15:22] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[13:15:22] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.15
+[13:15:22] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[13:15:22] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
+[13:15:22] [Server thread/INFO]: [GadgetsMenu] Loading server plugin GadgetsMenu v4.17.0
+[13:15:22] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
+[13:15:22] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.37-SNAPSHOT (build 3751)
+[13:15:22] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.5.2
+[13:15:22] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.1
+[13:15:22] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
+[13:15:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:15:22] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[13:15:23] [Server thread/INFO]:         __    
+[13:15:23] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[13:15:23] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[13:15:23] [Server thread/INFO]: 
+[13:15:23] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[13:15:23] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[13:15:23] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[13:15:24] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[13:15:24] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1390ms)
+[13:15:24] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[13:15:24] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[13:15:24] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[13:15:24] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[13:15:24] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[13:15:24] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
+[13:15:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:15:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:15:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:15:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:15:24] [Server thread/INFO]: Preparing level "world"
+[13:15:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:15:24] [Server thread/INFO]: Time elapsed: 3 ms
+[13:15:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:15:24] [Server thread/INFO]: Time elapsed: 4 ms
+[13:15:24] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[13:15:24] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.5-1.20.6 (766)
+[13:15:24] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[13:15:25] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[13:15:25] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.4
+[13:15:25] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[13:15:25] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[13:15:25] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[13:15:25] [Server thread/INFO]: [DeluxeHub] 
+[13:15:25] [Server thread/INFO]: [DeluxeHub] Version: 3.5.4
+[13:15:25] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[13:15:25] [Server thread/INFO]: [DeluxeHub] 
+[13:15:25] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
+[13:15:25] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[13:15:25] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.20.6! Trying to find NMS support
+[13:15:25] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R4' loaded!
+[13:15:25] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DeluxeHub' to create a bStats instance!
+[13:15:25] [Server thread/INFO]: [DeluxeHub] Loaded 17 plugin modules.
+[13:15:25] [Server thread/INFO]: [DeluxeHub] 
+[13:15:25] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 745ms
+[13:15:25] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[13:15:25] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.15
+[13:15:26] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.20.6! Trying to find NMS support
+[13:15:26] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R4' loaded!
+[13:15:26] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[13:15:26] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[13:15:26] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[13:15:26] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[13:15:26] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[13:15:26] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[13:15:26] [Server thread/INFO]: [Essentials] Using locale en
+[13:15:26] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[13:15:26] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[13:15:26] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[13:15:26] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[13:15:26] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.17.0
+[13:15:26] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[13:15:26] [Server thread/INFO]: [GadgetsMenu]        GadgetsMenu [Free] 4.17.0 is loading...
+[13:15:26] [Server thread/INFO]: [GadgetsMenu]       [server: 1.20.6-151-a4f0f5c (MC: 1.20.6)]
+[13:15:27] [Server thread/INFO]: [GadgetsMenu]                  Running Java 21.0.9
+[13:15:27] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
+[13:15:27] [Server thread/INFO]: [GadgetsMenu]             Date Modified: 12 January 2025
+[13:15:27] [Server thread/INFO]: [GadgetsMenu]                            
+[13:15:27] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_20_R4
+[13:15:27] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[13:15:27] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully registered economy storage: default (GadgetsMenu)
+[13:15:27] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully set default as the active economy storage.
+[13:15:27] [Server thread/INFO]: [GadgetsMenu] Initialized Sound Effects. (took 54ms)
+[13:15:27] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:15:28] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
+[13:15:28] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database!
+[13:15:28] [Server thread/INFO]: [GadgetsMenu] Enabled Mystery Vault individual hologram.
+[13:15:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gadgetsmenu [1.0.3]
+[13:15:28] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
+[13:15:28] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
+[13:15:28] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[13:15:28] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.37-SNAPSHOT (build 3751)
+[13:15:28] [Server thread/INFO]: [Citizens] Using mojmapped server, avoiding server package checks
+[13:15:29] [Server thread/INFO]: [Citizens] Loaded 0 templates.
+[13:15:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
+[13:15:29] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[13:15:29] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
+[13:15:29] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
+[13:15:29] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[13:15:29] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[13:15:29] [Server thread/INFO]: [TAB] Loaded NMS hook in 70ms
+[13:15:30] [Server thread/INFO]: [TAB] Enabled in 369ms
+[13:15:30] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[13:15:30] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[13:15:30] [Server thread/INFO]: Running delayed init tasks
+[13:15:30] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[13:15:30] [Craft Scheduler Thread - 0 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[13:15:30] [Craft Scheduler Thread - 5 - Essentials/INFO]: [Essentials] Fetching version information...
+[13:15:30] [Craft Scheduler Thread - 2 - GadgetsMenu/INFO]: [GadgetsMenu] Checking for updates...
+[13:15:30] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[13:15:30] [Craft Scheduler Thread - 0 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
+[13:15:30] [Craft Scheduler Thread - 4 - DecentHolograms/INFO]: 
 A newer version of DecentHolograms is available. Download it from: 
 - https://www.spigotmc.org/resources/96927/
 - https://modrinth.com/plugin/decentholograms
-[20:21:58] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.2.
-[20:21:58] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
-[20:21:58] [Craft Scheduler Thread - 6 - GadgetsMenu/INFO]: [GadgetsMenu] You have an old version of the plugin. You are using 4.17.0, available version 4.20.1.
-[20:21:58] [Server thread/INFO]: [Citizens] Loaded 8 NPCs.
-[20:21:58] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.5.1, you're on: 5.2.1
-[20:21:58] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.7) is available at:
-[20:21:58] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
-[20:21:58] [Server thread/INFO]: Done (20.356s)! For help, type "help"
-[20:21:58] [Server thread/INFO]: Timings Reset
+[13:15:30] [Craft Scheduler Thread - 2 - GadgetsMenu/INFO]: [GadgetsMenu] You have an old version of the plugin. You are using 4.17.0, available version 4.20.1.
+[13:15:30] [Craft Scheduler Thread - 5 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.2.
+[13:15:30] [Craft Scheduler Thread - 5 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
+[13:15:31] [Server thread/INFO]: [Citizens] Loaded 8 NPCs.
+[13:15:31] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.7) is available at:
+[13:15:31] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[13:15:31] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.5.1, you're on: 5.2.1
+[13:15:31] [Server thread/INFO]: Done (16.612s)! For help, type "help"
+[13:15:31] [Server thread/INFO]: Timings Reset
+[13:15:31] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] Checking for Updates ... 
+[13:15:31] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] No new version available
+[13:15:54] [User Authenticator #0/INFO]: UUID of player ysyyayyyayya is 6cd4e570-7a49-3521-8e89-4b4b5c6269c5
+[13:15:55] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[13:15:55] [Server thread/INFO]: + ysyyayyyayya Connected
+[13:15:55] [Server thread/INFO]: ysyyayyyayya[/127.0.0.1:40296] logged in with entity id 32 at ([world]242.5676863196855, 63.0, 1348.5389572713696)
+[13:15:56] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[13:15:56] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[13:15:56] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[13:15:56] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[13:15:56] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[13:15:56] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[13:15:56] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[13:15:56] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[13:15:56] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[13:15:56] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[13:16:05] [Server thread/INFO]: ysyyayyyayya issued server command: /gmc
+[13:17:39] [Server thread/INFO]: ysyyayyyayya lost connection: Disconnected
+[13:17:39] [Server thread/INFO]: - ysyyayyyayya Disconnected
