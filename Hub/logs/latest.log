@@ -234,3 +234,38 @@ A newer version of DecentHolograms is available. Download it from:
 [20:18:57] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
 [20:19:04] [Server thread/INFO]: ysyyayyyayya lost connection: Disconnected
 [20:19:04] [Server thread/INFO]: - ysyyayyyayya Disconnected
+[20:40:24] [User Authenticator #4/INFO]: UUID of player imSocrates is 6d29629e-518c-3420-b4d3-34984a2ae6be
+[20:40:27] [Server thread/INFO]: + imSocrates Connected
+[20:40:27] [Server thread/INFO]: imSocrates[/127.0.0.1:44620] logged in with entity id 136 at ([world]242.5676863196855, 63.0, 1348.5389572713696)
+[20:41:20] [User Authenticator #4/INFO]: UUID of player Megainc is ee9c4990-91b2-322c-a0d8-d2015d2d25a1
+[20:41:22] [Server thread/INFO]: imSocrates lost connection: Disconnected
+[20:41:22] [Server thread/INFO]: - imSocrates Disconnected
+[20:41:24] [Server thread/INFO]: + Megainc Connected
+[20:41:24] [Server thread/INFO]: Megainc[/127.0.0.1:48212] logged in with entity id 171 at ([world]242.5676863196855, 63.0, 1348.5389572713696)
+[20:41:41] [User Authenticator #4/INFO]: UUID of player imSocrates is 6d29629e-518c-3420-b4d3-34984a2ae6be
+[20:41:41] [Server thread/INFO]: + imSocrates Connected
+[20:41:41] [Server thread/INFO]: imSocrates[/127.0.0.1:33908] logged in with entity id 206 at ([world]242.5676863196855, 63.0, 1348.5389572713696)
+[20:41:59] [Async Chat Thread - #2/INFO]: [Not Secure] <Megainc> wtf is this
+[20:42:08] [Server thread/INFO]: [Essentials] Created a User for Bedwars(modded) (9e296de6-82c1-2a46-8773-529918125310) for non Bukkit type: net.citizensnpcs.nms.v1_20_R4.entity.EntityHumanNPC$PlayerNPC
+[20:42:09] [Server thread/INFO]: [Essentials] Created a User for Skybattle (cfd2c204-d9c1-2201-9934-f7e624de4f8e) for non Bukkit type: net.citizensnpcs.nms.v1_20_R4.entity.EntityHumanNPC$PlayerNPC
+[20:42:11] [Server thread/INFO]: [Essentials] Created a User for Anarchy (e9caae01-5c83-2754-a4a3-63f72e0ff86d) for non Bukkit type: net.citizensnpcs.nms.v1_20_R4.entity.EntityHumanNPC$PlayerNPC
+[20:42:17] [Server thread/INFO]: [Essentials] Created a User for Wargames (73d64375-1b65-21b7-8833-952128add16f) for non Bukkit type: net.citizensnpcs.nms.v1_20_R4.entity.EntityHumanNPC$PlayerNPC
+[20:43:27] [Server thread/INFO]: Megainc lost connection: Disconnected
+[20:43:27] [Server thread/INFO]: - Megainc Disconnected
+[20:43:37] [Server thread/INFO]: imSocrates lost connection: Disconnected
+[20:43:37] [Server thread/INFO]: - imSocrates Disconnected
+[20:43:56] [User Authenticator #5/INFO]: UUID of player Megainc is ee9c4990-91b2-322c-a0d8-d2015d2d25a1
+[20:43:56] [Server thread/INFO]: + Megainc Connected
+[20:43:56] [Server thread/INFO]: Megainc[/127.0.0.1:51854] logged in with entity id 207 at ([world]242.5676863196855, 63.0, 1348.5389572713696)
+[20:44:08] [Server thread/INFO]: Megainc lost connection: Disconnected
+[20:44:08] [Server thread/INFO]: - Megainc Disconnected
+[20:46:36] [User Authenticator #6/INFO]: UUID of player Megainc is ee9c4990-91b2-322c-a0d8-d2015d2d25a1
+[20:46:37] [Server thread/INFO]: + Megainc Connected
+[20:46:37] [Server thread/INFO]: Megainc[/127.0.0.1:35182] logged in with entity id 241 at ([world]242.5676863196855, 63.0, 1348.5389572713696)
+[20:46:43] [Server thread/INFO]: Megainc lost connection: Disconnected
+[20:46:43] [Server thread/INFO]: - Megainc Disconnected
+[20:58:53] [User Authenticator #7/INFO]: UUID of player imSocrates is 6d29629e-518c-3420-b4d3-34984a2ae6be
+[20:58:54] [Server thread/INFO]: + imSocrates Connected
+[20:58:54] [Server thread/INFO]: imSocrates[/127.0.0.1:55612] logged in with entity id 275 at ([world]242.5676863196855, 63.0, 1348.5389572713696)
+[20:59:00] [Server thread/INFO]: imSocrates lost connection: Disconnected
+[20:59:00] [Server thread/INFO]: - imSocrates Disconnected
