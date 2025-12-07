@@ -618,3 +618,93 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.craftbukkit.v1_21_R1.Cra
 [19:45:07] [Server thread/INFO]: Timings Reset
 [19:45:07] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.5.1, you're on: 5.2.1
 [19:45:07] [Craft Scheduler Thread - 6 - GrimAC/INFO]: You are using the latest version of GrimAC
+[19:50:20] [User Authenticator #0/INFO]: UUID of player ysyyayyyayya is 6cd4e570-7a49-3521-8e89-4b4b5c6269c5
+[19:50:22] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[19:50:23] [Server thread/INFO]: [LifestealSMP] No record found for UUID: 6cd4e570-7a49-3521-8e89-4b4b5c6269c5
+[19:50:23] [Server thread/INFO]: ysyyayyyayya joined the game
+[19:50:23] [Server thread/INFO]: ysyyayyyayya[/127.0.0.1:58006] logged in with entity id 29 at ([world]22.5, 76.0, 58.5)
+[19:50:24] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[19:50:24] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[19:50:24] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[19:50:24] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[19:50:24] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[19:50:24] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[19:50:24] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[19:50:24] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[19:50:24] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[19:50:24] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[19:50:25] [Netty Epoll Server IO #1/INFO]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] Loading block mappings for V_1_20_5/15...
+[19:50:26] [Netty Epoll Server IO #1/INFO]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] Finished loading block mappings for V_1_20_5/15 in 486.323669ms
+[19:56:41] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[19:56:41] [Server thread/INFO]: ysyyayyyayya lost connection: Server is restarting
+[19:56:41] [Server thread/INFO]: ysyyayyyayya left the game
+[19:56:41] [Server thread/INFO]: Stopping server
+[19:56:41] [Server thread/INFO]: [ExecutableItems] Disabling ExecutableItems v7.25.11.30
+[19:56:41] [Server thread/INFO]: [supersimplecombat] Disabling supersimplecombat v0.2.5
+[19:56:41] [Server thread/INFO]: [CustomCrafting] Disabling CustomCrafting v4.16.11
+[19:56:41] [Server thread/INFO]: [GrimAC] Disabling GrimAC v2.3.72
+[19:56:41] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
+[19:56:41] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
+[19:56:41] [Server thread/INFO]: [PearlTweaks] Disabling PearlTweaks v1.0.0
+[19:56:41] [Server thread/INFO]: [DimensionControl] Disabling DimensionControl v1.0
+[19:56:41] [Server thread/INFO]: [DimensionControl] DimensionControl has been disabled!
+[19:56:41] [Server thread/INFO]: [MLAntiXray] Disabling MLAntiXray vR1HF
+[19:56:41] [Server thread/INFO]: [ViaRewind-Legacy-Support] Disabling ViaRewind-Legacy-Support v1.5.2
+[19:56:41] [Server thread/INFO]: [Nomace] Disabling Nomace v1.0
+[19:56:41] [Server thread/INFO]: [LifestealSMP] Disabling LifestealSMP v1.4.0
+[19:56:41] [Server thread/INFO]: [LifestealSMP] SQLite connection closed.
+[19:56:41] [Server thread/INFO]: Database connections closed.
+[19:56:41] [Server thread/INFO]: [Recipe] All custom recipes unregistered.
+[19:56:41] [Server thread/INFO]: Recipes unregistered.
+[19:56:41] [Server thread/INFO]: LifestealSMP disabled.
+[19:56:41] [Server thread/INFO]: [MythicWeapons] Disabling MythicWeapons v1.0
+[19:56:41] [Server thread/INFO]: [MythicWeapons] Plugin has been disabled!
+[19:56:41] [Server thread/INFO]: [WolfyUtilities] Disabling WolfyUtilities v4.17-beta.7
+[19:56:41] [Server thread/INFO]: [WolfyUtilities] Save stored Custom Items
+[19:56:41] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.4
+[19:56:41] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.10.0-${CI_COMMIT_SHORT_SHA}
+[19:56:41] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[19:56:41] [Server thread/INFO]: [MythicMobs] - 
+[19:56:41] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
+[19:56:41] [Server thread/INFO]: [MythicMobs] - 
+[19:56:41] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[19:56:41] [Server thread/INFO]: [MythicMobs] - Spawners saved and unloaded...
+[19:56:41] [Server thread/INFO]: [MythicMobs] - Mobs saved and unloaded...
+[19:56:41] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[19:56:41] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[19:56:41] [Server thread/INFO]: [MythicMobs] - Variables saved...
+[19:56:41] [Server thread/INFO]: [MythicMobs] - All active settings have been saved!
+[19:56:41] [Server thread/INFO]: [MythicMobs] - Mythic has been unloaded!
+[19:56:41] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[19:56:41] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[19:56:41] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[19:56:41] [Server thread/INFO]: [SCore] Disabling SCore v5.25.11.30
+[19:56:41] [Server thread/INFO]: SCore Save UsagePerDay....
+[19:56:41] [Server thread/INFO]: SCore Save UsagePerDay done !
+[19:56:41] [Server thread/INFO]: SCore Save Commands...
+[19:56:41] [Server thread/INFO]: SCore Save Commands done !
+[19:56:41] [Server thread/INFO]: SCore Save Cooldowns...
+[19:56:41] [Server thread/INFO]: SCore 0 cooldowns saved
+[19:56:41] [Server thread/INFO]: SCore Save Cooldowns done !
+[19:56:41] [Server thread/INFO]: SCore Run delayed saving tasks...
+[19:56:41] [Server thread/INFO]: SCore Run delayed saving tasks done !
+[19:56:41] [Server thread/INFO]: SCore Clear scheduled tasks...
+[19:56:41] [Server thread/INFO]: SCore Clear scheduled tasks done !
+[19:56:41] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[19:56:41] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[19:56:41] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[19:56:41] [Server thread/INFO]: Saving players
+[19:56:41] [Server thread/INFO]: Saving worlds
+[19:56:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:56:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:56:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:56:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:56:42] [Server thread/INFO]: [ChunkHolderManager] Saved 1682 block chunks, 122 entity chunks, 0 poi chunks in world 'world' in 0.89s
+[19:56:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:56:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[19:56:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[19:56:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[19:56:42] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.24s
+[19:56:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:56:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:56:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

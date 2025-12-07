@@ -33,3 +33,5 @@
 [2025/12/07 19:43:33]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
 [2025/12/07 19:43:33]:  §eand click the "Setup plugin" button to configure your plugin.
 [2025/12/07 19:43:33]: 
+[2025/12/07 19:50:11]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ysyyayyyayya', `unique_id` = 6cd4e5707a4935218e894b4b5c6269c5,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$uzAyimeDV52zfhLxVPu0E.eA6XU7H75LcNP1XZSXE1/6KkHxGwlmu', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2025-03-11 15:03:58.381, `last_seen` = 2025-12-07 19:50:11.051, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"},{"value":"lifesteal","key":"last-server"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/12/07 19:50:11]: [nLogin] The user ysyyayyyayya has successfully logged in.
