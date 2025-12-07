@@ -34,7 +34,7 @@ debug: false
 # Custom Crafting - Heart Item
 # ----------------------------------
 heart-crafting:
-  enabled: true
+  enabled: false
   recipe:
     shape:
       - "BEB"
@@ -51,7 +51,7 @@ heart-crafting:
 # Custom Crafting - Revive Beacon
 # ----------------------------------
 revive-beacon-crafting:
-  enabled: true
+  enabled: false
   recipe:
     shape:
       - "NGN"

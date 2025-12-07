@@ -190,3 +190,47 @@ A newer version of DecentHolograms is available. Download it from:
 [19:50:13] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
 [19:50:22] [Server thread/INFO]: ysyyayyyayya lost connection: Disconnected
 [19:50:22] [Server thread/INFO]: - ysyyayyyayya Disconnected
+[20:16:03] [User Authenticator #1/INFO]: UUID of player ysyyayyyayya is 6cd4e570-7a49-3521-8e89-4b4b5c6269c5
+[20:16:03] [Server thread/INFO]: + ysyyayyyayya Connected
+[20:16:03] [Server thread/INFO]: ysyyayyyayya[/127.0.0.1:58028] logged in with entity id 66 at ([world]242.5676863196855, 63.0, 1348.5389572713696)
+[20:16:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[20:16:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[20:16:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[20:16:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[20:16:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[20:16:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[20:16:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[20:16:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[20:16:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[20:16:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[20:17:06] [User Authenticator #2/INFO]: UUID of player MerryZumzmas is 336408b0-402a-3289-99d9-5b2ad84dbd06
+[20:17:08] [Server thread/INFO]: + MerryZumzmas Connected
+[20:17:08] [Server thread/INFO]: MerryZumzmas[/127.0.0.1:33110] logged in with entity id 100 at ([world]242.5676863196855, 63.0, 1348.5389572713696)
+[20:17:10] [Async Chat Thread - #1/INFO]: [Not Secure] <ysyyayyyayya> hi
+[20:17:16] [Async Chat Thread - #1/INFO]: [Not Secure] <MerryZumzmas> what is this
+[20:17:20] [Async Chat Thread - #1/INFO]: [Not Secure] <ysyyayyyayya> this is a copied lobby
+[20:17:21] [Async Chat Thread - #1/INFO]: [Not Secure] <ysyyayyyayya> idk
+[20:17:23] [Async Chat Thread - #1/INFO]: [Not Secure] <ysyyayyyayya> so
+[20:17:26] [Async Chat Thread - #0/INFO]: [Not Secure] <ysyyayyyayya> idc
+[20:17:28] [Async Chat Thread - #0/INFO]: [Not Secure] <MerryZumzmas> what i click
+[20:17:29] [Async Chat Thread - #0/INFO]: [Not Secure] <ysyyayyyayya> do /server
+[20:17:34] [Async Chat Thread - #0/INFO]: [Not Secure] <ysyyayyyayya> and click lifesteal
+[20:17:35] [Server thread/INFO]: MerryZumzmas lost connection: Disconnected
+[20:17:35] [Server thread/INFO]: - MerryZumzmas Disconnected
+[20:17:41] [Server thread/INFO]: ysyyayyyayya lost connection: Disconnected
+[20:17:41] [Server thread/INFO]: - ysyyayyyayya Disconnected
+[20:18:57] [User Authenticator #3/INFO]: UUID of player ysyyayyyayya is 6cd4e570-7a49-3521-8e89-4b4b5c6269c5
+[20:18:57] [Server thread/INFO]: + ysyyayyyayya Connected
+[20:18:57] [Server thread/INFO]: ysyyayyyayya[/127.0.0.1:51962] logged in with entity id 102 at ([world]242.5676863196855, 63.0, 1348.5389572713696)
+[20:18:57] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[20:18:57] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[20:18:57] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[20:18:57] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[20:18:57] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[20:18:57] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[20:18:57] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[20:18:57] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[20:18:57] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[20:18:57] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[20:19:04] [Server thread/INFO]: ysyyayyyayya lost connection: Disconnected
+[20:19:04] [Server thread/INFO]: - ysyyayyyayya Disconnected

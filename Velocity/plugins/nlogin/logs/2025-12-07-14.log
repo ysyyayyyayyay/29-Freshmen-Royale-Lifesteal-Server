@@ -1,0 +1,66 @@
+[2025/12/07 20:15:14]: §9          __             _       
+[2025/12/07 20:15:14]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/12/07 20:15:14]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/12/07 20:15:14]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/12/07 20:15:14]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/12/07 20:15:14]: §9                  |___/            
+[2025/12/07 20:15:14]: §9 By: www.nickuc.com - V 10.4.21
+[2025/12/07 20:15:14]: §9 
+[2025/12/07 20:15:14]: §3[nLogin] [DEBUG] All settings were loaded in 111 ms.
+[2025/12/07 20:15:14]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2025/12/07 20:15:14]: §3[nLogin] [DEBUG] All plugin messages were loaded in 42 ms (languageByClient=false).
+[2025/12/07 20:15:14]: §3[nLogin] [DEBUG] All proxy settings were loaded in 7 ms.
+[2025/12/07 20:15:14]: §3[nLogin] [DEBUG] Loading database...
+[2025/12/07 20:15:14]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/12/07 20:15:19]: 
+[2025/12/07 20:15:19]:  §bThank you so much for choosing nLogin! §4<3
+[2025/12/07 20:15:19]: 
+[2025/12/07 20:15:19]:  §4For your safety, please read the message below:
+[2025/12/07 20:15:19]:   §cNever download nLogin from unknown sources.
+[2025/12/07 20:15:19]:   §cA modified version may contain malicious software.
+[2025/12/07 20:15:19]: 
+[2025/12/07 20:15:19]:  §3Trusted sources:
+[2025/12/07 20:15:19]:   §bwww.nickuc.com
+[2025/12/07 20:15:19]:   §bwww.github.com/nickuc
+[2025/12/07 20:15:19]:   §bOpeNLogin installer (from Spigot or GitHub)
+[2025/12/07 20:15:19]: 
+[2025/12/07 20:15:19]:  §3Official support channels:
+[2025/12/07 20:15:19]:   §bDiscord group: §fwww.nickuc.com/discord
+[2025/12/07 20:15:19]:   §bDocumentation: §fdocs.nickuc.com/nlogin/
+[2025/12/07 20:15:19]:   §bEmail: §fsupport@nickuc.com
+[2025/12/07 20:15:19]:   §bYouTube: §fyoutube.com/nickuc
+[2025/12/07 20:15:19]: 
+[2025/12/07 20:15:19]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
+[2025/12/07 20:15:19]:  §eand click the "Setup plugin" button to configure your plugin.
+[2025/12/07 20:15:19]: 
+[2025/12/07 20:16:03]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ysyyayyyayya', `unique_id` = 6cd4e5707a4935218e894b4b5c6269c5,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$uzAyimeDV52zfhLxVPu0E.eA6XU7H75LcNP1XZSXE1/6KkHxGwlmu', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2025-03-11 15:03:58.381, `last_seen` = 2025-12-07 20:16:03.17, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"},{"value":"lifesteal","key":"last-server"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/12/07 20:16:03]: [nLogin] The user ysyyayyyayya has successfully logged in.
+[2025/12/07 20:17:05]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('MerryZumzmas', 336408b0402a328999d95b2ad84dbd06, null, null, '$2a$10$nZ3EHfGajtsVcdXz48vV..zh0sTRvhYiqI9YWdA86/n.LBXM2xgEy', '127.0.0.1', '2025-12-07 20:17:05.884', '2025-12-07 20:17:05.884', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2025/12/07 20:17:05]: [nLogin] The user MerryZumzmas has successfully registered.
+[2025/12/07 20:20:45]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'MerryZumzmas', `unique_id` = 336408b0402a328999d95b2ad84dbd06,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$nZ3EHfGajtsVcdXz48vV..zh0sTRvhYiqI9YWdA86/n.LBXM2xgEy', `last_ip` = '127.0.0.1', `creation_date` = 2025-12-07 20:17:05.884, `last_seen` = 2025-12-07 20:20:45.201, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"lifesteal","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 5" (applied to [last_seen, settings] columns)
+[2025/12/07 20:32:40]: §3[nLogin] [DEBUG] The shmewypoffinz (127.0.0.1) player entered an incorrect password
+[2025/12/07 20:33:15]: §3[nLogin] [DEBUG] The shmewypoffinz (127.0.0.1) player entered an incorrect password
+[2025/12/07 20:40:08]: §4[nLogin] [ERROR] §cCould not insert imSocrates account's 278733830 [write fail?]
+org.sqlite.SQLiteException: [SQLITE_READONLY_DBMOVED] The database file has been moved since it was opened (attempt to write a readonly database)
+	at org.sqlite.core.DB.newSQLException(DB.java:1179)
+	at org.sqlite.core.DB.newSQLException(DB.java:1190)
+	at org.sqlite.core.DB.execute(DB.java:988)
+	at org.sqlite.core.DB.executeUpdate(DB.java:1054)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.lambda$executeLargeUpdate$2(JDBC3PreparedStatement.java:129)
+	at org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.executeLargeUpdate(JDBC3PreparedStatement.java:124)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.executeUpdate(JDBC3PreparedStatement.java:105)
+	at com.nickuc.login.πζιθΛΔρχΨυΔ.a(:103)
+	at com.nickuc.login.χοΨδξγεΣπ.a(:87)
+	at com.nickuc.login.σεθζθζτζ.a(:677)
+	at com.nickuc.login.σεθζθζτζ.a(:671)
+	at com.nickuc.login.ςτΩΦπρηΩΓ.a(:57)
+	at com.nickuc.login.ςτΩΦπρηΩΓ.b(:127)
+	at com.nickuc.login.οΨτμςκΦθηΩβΩΨηλ.a(:129)
+	at com.nickuc.login.ξξοηλξνΨ.b(:92)
+	at com.nickuc.login.ξομολθκπγτ.d(:118)
+	at com.velocitypowered.proxy.scheduler.VelocityScheduler$VelocityTask.lambda$run$0(VelocityScheduler.java:285)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2025/12/07 20:40:08]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('imSocrates', 6d29629e518c3420b4d334984a2ae6be, null, null, '$2a$10$w9fD30IykeSgbieqGFKsEehH4Jf9C6a3rdpK2PsS1/BTih3k5CcVa', '127.0.0.1', '2025-12-07 20:40:07.899', '2025-12-07 20:40:07.899', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)

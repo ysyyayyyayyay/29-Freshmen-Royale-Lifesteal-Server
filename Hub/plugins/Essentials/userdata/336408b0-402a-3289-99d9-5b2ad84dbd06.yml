@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765138655379
+  login: 1765138628288
+money: '0'
+last-account-name: MerryZumzmas
+lastlocation:
+  world: 2f992acc-ddc9-46cf-8ff9-182e3e5756c8
+  world-name: world
+  x: 242.5676863196855
+  y: 63.0
+  z: 1348.5389572713696
+  yaw: 179.90003967285156
+  pitch: -1.650008201599121
+logoutlocation:
+  world: 2f992acc-ddc9-46cf-8ff9-182e3e5756c8
+  world-name: world
+  x: 237.83373788856917
+  y: 62.0
+  z: 1342.7044211099997
+  yaw: -77.66895294189453
+  pitch: 38.740081787109375
