@@ -117,3 +117,24 @@ TCPPorts = [25765]
 [13:34:42] [nioEventLoopGroup-2-8/WARN] [velocit]: failed to send data to minecraft server
 [13:36:27] [Thread-5/INFO] [gg.playit.control.ChannelSetup]: send keep alive
 [13:36:39] [Thread-5/INFO] [gg.playit.control.ChannelSetup]: send keep alive
+[13:37:42] [Thread-5/INFO] [velocit]: start connection to /69.9.184.2:43784 to claim client
+[13:37:42] [nioEventLoopGroup-2-1/INFO] [velocit]: connected to tunnel server, sending claim token
+[13:37:42] [nioEventLoopGroup-2-1/INFO] [velocit]: claim token sent
+[13:37:42] [nioEventLoopGroup-2-1/INFO] [velocit]: connection to tunnel server has been established
+[13:37:42] [nioEventLoopGroup-2-1/INFO] [velocit]: connecting to minecraft server at /0.0.0.0:25765
+[13:37:42] [nioEventLoopGroup-2-2/INFO] [velocit]: connected to local minecraft server
+[13:37:42] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] shmewypoffinz (/127.0.0.1:43358) has connected
+[13:37:42] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] shmewypoffinz -> login has connected
+[13:38:00] [nLogin - Task Executor #2/INFO] [nlogin]: The user shmewypoffinz has successfully registered.
+[13:38:00] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] shmewypoffinz -> lobby has connected
+[13:38:00] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] shmewypoffinz -> login has disconnected
+[13:38:53] [nioEventLoopGroup-2-1/WARN] [velocit]: failed to send data to tunnel
+[13:38:53] [nioEventLoopGroup-2-1/WARN] [velocit]: failed to send data to tunnel
+[13:38:53] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] shmewypoffinz (/127.0.0.1:43358) has disconnected
+[13:38:53] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] shmewypoffinz -> lobby has disconnected
+[13:38:55] [Thread-5/INFO] [velocit]: start connection to /69.9.184.2:43784 to claim client
+[13:38:56] [nioEventLoopGroup-2-3/INFO] [velocit]: connected to tunnel server, sending claim token
+[13:38:56] [nioEventLoopGroup-2-3/INFO] [velocit]: claim token sent
+[13:38:56] [nioEventLoopGroup-2-3/INFO] [velocit]: connection to tunnel server has been established
+[13:38:56] [nioEventLoopGroup-2-3/INFO] [velocit]: connecting to minecraft server at /0.0.0.0:25765
+[13:38:56] [nioEventLoopGroup-2-4/INFO] [velocit]: connected to local minecraft server

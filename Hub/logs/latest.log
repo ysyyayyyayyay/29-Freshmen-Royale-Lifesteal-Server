@@ -191,3 +191,8 @@ A newer version of DecentHolograms is available. Download it from:
 [13:16:05] [Server thread/INFO]: ysyyayyyayya issued server command: /gmc
 [13:17:39] [Server thread/INFO]: ysyyayyyayya lost connection: Disconnected
 [13:17:39] [Server thread/INFO]: - ysyyayyyayya Disconnected
+[13:38:00] [User Authenticator #1/INFO]: UUID of player shmewypoffinz is d7cb68aa-09ed-34c1-82d4-b7f37cb34fc7
+[13:38:08] [Server thread/INFO]: + shmewypoffinz Connected
+[13:38:08] [Server thread/INFO]: shmewypoffinz[/127.0.0.1:53888] logged in with entity id 66 at ([world]242.5676863196855, 63.0, 1348.5389572713696)
+[13:38:53] [Server thread/INFO]: shmewypoffinz lost connection: Disconnected
+[13:38:53] [Server thread/INFO]: - shmewypoffinz Disconnected
