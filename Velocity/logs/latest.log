@@ -138,3 +138,6 @@ TCPPorts = [25765]
 [13:38:56] [nioEventLoopGroup-2-3/INFO] [velocit]: connection to tunnel server has been established
 [13:38:56] [nioEventLoopGroup-2-3/INFO] [velocit]: connecting to minecraft server at /0.0.0.0:25765
 [13:38:56] [nioEventLoopGroup-2-4/INFO] [velocit]: connected to local minecraft server
+[13:39:26] [Netty epoll Worker #5/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /127.0.0.1:51744: read timed out
+[13:40:30] [Thread-5/INFO] [gg.playit.control.ChannelSetup]: send keep alive
+[13:40:42] [Thread-5/INFO] [gg.playit.control.ChannelSetup]: send keep alive
